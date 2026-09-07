@@ -39,12 +39,13 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 
 <p align="right"><a href="https://paxeko530.github.io/"><strong>See all &rarr;</strong></a></p>
 
-## What's in every guide
+## What to expect
 
-- **On-page contents** &mdash; jump to any section
-- **Vetted picks** &mdash; products chosen for fit, not commission ([how we choose](https://paxeko530.github.io/how-we-choose.html))
-- **FAQ** &mdash; the questions people actually ask
-- **Clear disclosure** &mdash; every page with commercial links carries it
+- Every guide opens with an on-page outline and closes with an FAQ.
+- Some guides recommend gear; when they do, the pick is chosen for fit rather than
+  commission ([how we choose](https://paxeko530.github.io/how-we-choose.html)) and the page carries an
+  [affiliate disclosure](https://paxeko530.github.io/disclosure.html).
+- Guides without a product recommendation stay product-free.
 
 ---
 
