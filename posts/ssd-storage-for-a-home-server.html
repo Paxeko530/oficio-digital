@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What hardware you need for local LLM inference in 2026 — SoloStack</title>
-<meta name="description" content="llm hardware, inference gpu, model ram">
-<link rel="canonical" href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">
+<title>Adding fast SSD storage to a home server — SoloStack</title>
+<meta name="description" content="home server SSD, NVMe storage, self-hosting">
+<link rel="canonical" href="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html">
 <link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/feed.xml">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="SoloStack">
-<meta property="og:title" content="What hardware you need for local LLM inference in 2026 — SoloStack">
-<meta property="og:description" content="llm hardware, inference gpu, model ram">
-<meta property="og:url" content="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">
-<meta property="og:image" content="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png">
-<meta property="og:image:alt" content="What hardware you need for local LLM inference in 2026">
-<meta property="article:published_time" content="2026-09-06">
-<meta property="article:modified_time" content="2026-09-06">
+<meta property="og:title" content="Adding fast SSD storage to a home server — SoloStack">
+<meta property="og:description" content="home server SSD, NVMe storage, self-hosting">
+<meta property="og:url" content="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html">
+<meta property="og:image" content="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png">
+<meta property="og:image:alt" content="Adding fast SSD storage to a home server">
+<meta property="article:published_time" content="2026-09-07">
+<meta property="article:modified_time" content="2026-09-07">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="What hardware you need for local LLM inference in 2026 — SoloStack">
-<meta name="twitter:description" content="llm hardware, inference gpu, model ram">
-<meta name="twitter:image" content="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png">
+<meta name="twitter:title" content="Adding fast SSD storage to a home server — SoloStack">
+<meta name="twitter:description" content="home server SSD, NVMe storage, self-hosting">
+<meta name="twitter:image" content="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"What hardware you need for local LLM inference in 2026","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html","image":"https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png","keywords":"llm hardware, inference gpu, model ram"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"What hardware you need for local LLM inference in 2026","item":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much GPU memory do I need for local LLM inference?","acceptedAnswer":{"@type":"Answer","text":"The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks."}},{"@type":"Question","name":"Can I use older hardware for LLM inference?","acceptedAnswer":{"@type":"Answer","text":"While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency."}},{"@type":"Question","name":"What is the role of RDMA in LLM inference?","acceptedAnswer":{"@type":"Answer","text":"RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Adding fast SSD storage to a home server","datePublished":"2026-09-07","dateModified":"2026-09-07","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html","image":"https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png","keywords":"home server SSD, NVMe storage, self-hosting"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"Adding fast SSD storage to a home server","item":"https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Q: Can I use multiple NVMe SSDs in my server?","acceptedAnswer":{"@type":"Answer","text":"A: Yes, you can use multiple NVMe SSDs in your server. Most modern motherboards support multiple NVMe slots, allowing you to add additional SSDs to expand your storage capacity or to create RAID configurations for redundancy and performance."}},{"@type":"Question","name":"Q: How do I back up data on my NVMe SSD?","acceptedAnswer":{"@type":"Answer","text":"A: Backing up data on your NVMe SSD is crucial, especially given the speed and capacity of these drives. You can use cloud-based backup solutions, external hard drives, or network-attached storage (NAS) devices to create backups. Additionally, many operating systems offer built-in backup utilities that can be configured to automatically backup your data."}},{"@type":"Question","name":"Q: What is the lifespan of an NVMe SSD?","acceptedAnswer":{"@type":"Answer","text":"A: The lifespan of an NVMe SSD can vary based on usage patterns and the quality of the drive. Generally, NVMe SSDs have a high endurance rating, with many offering up to 1 DWPD (Drive Writes Per Day) for consumer-grade drives and higher for enterprise-grade drives. Regular monitoring of the SSD's health and performance can help you determine when it might be time to replace the drive."}}]}]}</script>
 <style>
 @font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
 @font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
@@ -143,37 +143,75 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <article class="post">
 <p class="crumbs"><a href="https://paxeko530.github.io/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></p>
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h1>What hardware you need for local LLM inference in 2026</h1>
-<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>4 min read</span></div>
+<h1>Adding fast SSD storage to a home server</h1>
+<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>6 min read</span></div>
 <div class="share">
-<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fhardware-for-local-llm-inference-2026-pin.png&description=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Save to Pinterest</a>
-<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html&text=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Post on X</a>
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fssd-storage-for-a-home-server-pin.png&description=Adding%20fast%20SSD%20storage%20to%20a%20home%20server" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html&text=Adding%20fast%20SSD%20storage%20to%20a%20home%20server" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html" target="_blank" rel="noopener">LinkedIn</a>
 <button id="copylink" type="button">Copy link</button>
 </div>
-<img class="hero-img" src="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" fetchpriority="high">
+<img class="hero-img" src="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png" width="1200" height="630" alt="Adding fast SSD storage to a home server" fetchpriority="high">
 <div class="prod prod-featured">
   <p class="prod-tag">Top pick</p>
   <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
   <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
   <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
 </div>
-<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#cpus-and-cores">CPUs and Cores</a></li><li><a href="#gpus-and-memory">GPUs and Memory</a></li><li><a href="#memory-and-storage">Memory and Storage</a></li><li><a href="#networking-and-connectivity">Networking and Connectivity</a></li><li><a href="#power-supply-and-cooling">Power Supply and Cooling</a></li></ol></nav>
-<p>Local Large Language Model (LLM) inference in 2026 will rely on a blend of powerful hardware components designed to handle the computational demands of running sophisticated AI models efficiently and responsively. As the complexity and size of these models continue to grow, so too does the need for robust hardware infrastructure that can support real-time processing, lower latency, and high throughput. This article will guide you through the essential hardware requirements for running LLMs locally, including CPUs, GPUs, memory, storage, and networking components, ensuring your system is well-equipped to meet the evolving needs of AI-driven applications.</p>
-<h2 id="cpus-and-cores">CPUs and Cores</h2>
-<p>The central processing unit (CPU) serves as the brain of your system, managing tasks and coordinating data flow between other components. For LLM inference in 2026, multi-core processors with advanced architecture are crucial. Look for CPUs with at least 16 cores and support for advanced features like hyper-threading, which can significantly enhance multi-threaded performance. Modern CPUs, such as those from Intel&#39;s Xeon or AMD&#39;s EPYC series, offer excellent performance and scalability, making them ideal choices for running resource-intensive AI models. Additionally, CPUs with robust cache and high-speed memory interfaces will help in accelerating the inference process by reducing latency and increasing data throughput.</p>
-<h2 id="gpus-and-memory">GPUs and Memory</h2>
-<p>Graphics Processing Units (GPUs) are the backbone of modern AI and machine learning applications, providing the parallel processing power necessary for efficient model inference. In 2026, for local LLM inference, you should aim for GPUs with significant memory capacity and high computational throughput. GPUs from NVIDIA&#39;s A100 or H100 series, or AMD&#39;s MI300 series, are well-regarded for their advanced features, such as Tensor Cores and large memory capacities, which are essential for handling large model sizes and complex inference tasks. A minimum of 48GB of GPU memory is recommended for handling contemporary LLMs, with 80GB or more being preferable for future-proofing your setup. Ensure your GPU has sufficient PCIe bandwidth and supports the latest standards for optimal performance.</p>
-<h2 id="memory-and-storage">Memory and Storage</h2>
-<p>Memory and storage are critical for running LLMs locally, as they directly impact the model&#39;s performance and responsiveness. For memory, look for high-speed, low-latency RAM with at least 64GB for standard operations, scaling up to 256GB or more for handling larger models or multiple concurrent inference tasks. DDR5 RAM, with its faster speeds and higher bandwidth, is highly recommended for its efficiency and performance. Storage-wise, consider using NVMe SSDs with high sequential read and write speeds, providing quick access to large datasets and models. Having at least 1TB of NVMe storage is advisable, with 2TB or more being ideal for future scalability and redundancy.</p>
-<h2 id="networking-and-connectivity">Networking and Connectivity</h2>
-<p>Effective networking is crucial for transferring large datasets and model parameters efficiently, especially in distributed training scenarios. For local LLM inference, a high-speed network interface card (NIC) with 10Gbps or higher throughput is recommended, allowing for seamless data transfer and minimizing latency. Additionally, consider implementing RDMA (Remote Direct Memory Access) to further enhance performance by allowing direct data transfer between memory spaces without CPU intervention. For edge deployments, robust wireless connectivity solutions, such as 5G or Wi-Fi 6E, can provide reliable and fast data exchange capabilities.</p>
-<h2 id="power-supply-and-cooling">Power Supply and Cooling</h2>
-<p>Running high-performance hardware for extended periods requires reliable power supply and efficient cooling solutions. Ensure your system has a high-quality power supply unit (PSU) that can handle the power requirements of your components, with at least 850W being a good starting point for a well-equipped system. Additionally, invest in a robust cooling solution, such as liquid cooling or high-performance air cooling, to maintain optimal operating temperatures and prevent overheating, which can degrade performance and longevity.</p>
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#choosing-the-right-ssd-for-your-home-server">Choosing the Right SSD for Your Home Server</a></li><li><a href="#preparing-your-home-server-for-nvme-ssd-installation">Preparing Your Home Server for NVMe SSD Installation</a></li><li><a href="#installing-the-nvme-ssd">Installing the NVMe SSD</a></li><li><a href="#configuring-your-home-server-for-nvme-ssd">Configuring Your Home Server for NVMe SSD</a></li><li><a href="#optimizing-your-home-server-with-nvme-ssd">Optimizing Your Home Server with NVMe SSD</a></li></ol></nav>
+<p>Adding fast SSD storage to a home server is a great way to boost performance and expand your storage capacity, especially if you&#39;re dealing with large files or running resource-intensive applications. Whether you&#39;re a gamer, a developer, or someone who simply wants to centralize and back up all their data, upgrading to SSD storage can make a significant difference. In this article, we&#39;ll walk you through the process of selecting and installing NVMe SSDs, which offer superior performance compared to traditional SATA SSDs. We&#39;ll cover everything from understanding the basics of SSD technology to step-by-step installation instructions and optimizing your system for maximum performance.</p>
+<h2 id="choosing-the-right-ssd-for-your-home-server">Choosing the Right SSD for Your Home Server</h2>
+<p>When it comes to selecting an SSD for your home server, there are several factors to consider. First and foremost, you need to decide between SATA SSDs and NVMe SSDs. NVMe (Non-Volatile Memory Express) SSDs are designed to take full advantage of the PCIe interface, which allows them to achieve much higher read and write speeds compared to SATA SSDs. NVMe SSDs are ideal for applications that require fast data access, such as gaming, video editing, and database management.</p>
+<p>Another important consideration is the capacity of the SSD. If you&#39;re using your home server for backup and archival purposes, you may want to opt for a larger capacity SSD. However, if you&#39;re focused on performance, a smaller capacity SSD can be sufficient, as you can always add more storage later if needed.</p>
+<p>Finally, you&#39;ll want to ensure that your server&#39;s motherboard supports NVMe SSDs. Most modern motherboards come equipped with NVMe slots, but it&#39;s always a good idea to double-check the specifications to avoid compatibility issues.</p>
+<h2 id="preparing-your-home-server-for-nvme-ssd-installation">Preparing Your Home Server for NVMe SSD Installation</h2>
+<p>Before you start installing your NVMe SSD, there are a few preparatory steps you should take to ensure a smooth process. First, make sure your server is powered off and unplugged. This is crucial for safety reasons and to prevent any accidental data loss. Next, gather the necessary tools and components:</p>
+<ul>
+<li>A Phillips-head screwdriver</li>
+<li>Anti-static wrist strap (recommended)</li>
+<li>NVMe SSD</li>
+<li>Thermal paste (optional, but recommended for optimal performance)</li>
+<li>Backup of your data (always a good idea to have a backup before making hardware changes)</li>
+</ul>
+<p>Once you have everything ready, open your server case and locate the NVMe slot on the motherboard. NVMe slots are usually located near the CPU, and they look like small, thin slots with a few pins exposed.</p>
+<h2 id="installing-the-nvme-ssd">Installing the NVMe SSD</h2>
+<p>Now that you have everything prepared, it&#39;s time to install the NVMe SSD. Here are the steps to follow:</p>
+<ol>
+<li><p><strong>Remove the NVMe SSD from its packaging</strong> and inspect the SSD for any physical damage. Make sure the SSD is compatible with your motherboard and that the pins on the SSD align with the slots on the motherboard.</p>
+</li>
+<li><p><strong>Place the NVMe SSD into the slot</strong>. Use your fingers to gently press the SSD into the slot until it clicks into place. Ensure that the SSD is fully seated and that the pins are not bent.</p>
+</li>
+<li><p><strong>Secure the SSD</strong>. Most NVMe SSDs come with small screws that secure them to the motherboard. Use the screwdriver to screw the SSD into place. Make sure the screws are tight to prevent the SSD from coming loose during operation.</p>
+</li>
+<li><p><strong>Apply thermal paste</strong> (if applicable). If your SSD is running hot and you want to optimize its performance, you can apply a small amount of thermal paste to the back of the SSD before installing it. This helps dissipate heat more effectively and can improve the SSD&#39;s longevity.</p>
+</li>
+<li><p><strong>Close the server case</strong>. Once the SSD is installed and secured, close the server case and plug in the power supply.</p>
+</li>
+</ol>
+<h2 id="configuring-your-home-server-for-nvme-ssd">Configuring Your Home Server for NVMe SSD</h2>
+<p>After installing the NVMe SSD, you&#39;ll need to configure your home server to recognize and use the new storage device. Here&#39;s how you can do it:</p>
+<ol>
+<li><p><strong>Power on your server</strong> and wait for the operating system to boot up. If your server is configured to automatically detect new hardware, the SSD should be recognized and mounted automatically.</p>
+</li>
+<li><p><strong>Access the BIOS/UEFI settings</strong>. If the SSD is not recognized automatically, you may need to enter the BIOS/UEFI settings to configure the system to recognize the new storage device. Look for the &quot;Storage&quot; or &quot;SATA Configuration&quot; section and ensure that the NVMe SSD is enabled and set to the appropriate mode (AHCI or RAID, depending on your configuration).</p>
+</li>
+<li><p><strong>Partition and format the SSD</strong>. Once the SSD is recognized, you can partition and format it using the operating system&#39;s disk management tools. In Windows, you can use the &quot;Disk Management&quot; utility, while in Linux, you can use tools like <code>fdisk</code> or <code>gparted</code>.</p>
+</li>
+<li><p><strong>Install an operating system or clone your existing system</strong>. If you&#39;re setting up a new server or want to start fresh, you can install an operating system directly onto the NVMe SSD. Alternatively, you can clone your existing system to the new SSD using cloning software like Clonezilla or Macrium Reflect.</p>
+</li>
+</ol>
+<h2 id="optimizing-your-home-server-with-nvme-ssd">Optimizing Your Home Server with NVMe SSD</h2>
+<p>To get the most out of your NVMe SSD, there are several optimization techniques you can employ:</p>
+<ul>
+<li><strong>Disable unnecessary startup programs</strong>: This can help reduce the workload on the SSD during boot-up and improve overall performance.</li>
+<li><strong>Use SSD-friendly file systems</strong>: File systems like NTFS (Windows) and ext4 (Linux) are optimized for SSDs and can help improve read/write speeds.</li>
+<li><strong>Enable TRIM</strong>: TRIM is a feature that helps maintain the performance of SSDs by allowing the operating system to inform the SSD which blocks of data are no longer in use and can be wiped internally. You can enable TRIM in the operating system&#39;s settings or through the BIOS/UEFI settings.</li>
+<li><strong>Regularly monitor SSD health</strong>: Use tools like CrystalDiskInfo (Windows) or <code>smartmontools</code> (Linux) to monitor the health and status of your SSD. This can help you identify potential issues before they become critical.</li>
+</ul>
 
-<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>How much GPU memory do I need for local LLM inference?</summary><p>The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks.</p></details><details><summary>Can I use older hardware for LLM inference?</summary><p>While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency.</p></details><details><summary>What is the role of RDMA in LLM inference?</summary><p>RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications.</p></details></section>
+<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>Q: Can I use multiple NVMe SSDs in my server?</summary><p>A: Yes, you can use multiple NVMe SSDs in your server. Most modern motherboards support multiple NVMe slots, allowing you to add additional SSDs to expand your storage capacity or to create RAID configurations for redundancy and performance.</p></details><details><summary>Q: How do I back up data on my NVMe SSD?</summary><p>A: Backing up data on your NVMe SSD is crucial, especially given the speed and capacity of these drives. You can use cloud-based backup solutions, external hard drives, or network-attached storage (NAS) devices to create backups. Additionally, many operating systems offer built-in backup utilities that can be configured to automatically backup your data.</p></details><details><summary>Q: What is the lifespan of an NVMe SSD?</summary><p>A: The lifespan of an NVMe SSD can vary based on usage patterns and the quality of the drive. Generally, NVMe SSDs have a high endurance rating, with many offering up to 1 DWPD (Drive Writes Per Day) for consumer-grade drives and higher for enterprise-grade drives. Regular monitoring of the SSD&#39;s health and performance can help you determine when it might be time to replace the drive.</p></details></section>
 <h2 id="conclusion">Conclusion</h2>
-<p>Running local Large Language Model inference in 2026 requires a carefully selected blend of hardware components that can handle the computational demands of sophisticated AI models. By investing in powerful CPUs, high-performance GPUs, ample memory and storage, robust networking solutions, and reliable power supply and cooling systems, you can ensure your setup is well-equipped to deliver efficient and responsive AI-driven applications. As the field continues to evolve, staying informed about the latest hardware advancements will help you maintain a competitive edge in the AI landscape.</p>
+<p>Adding an NVMe SSD to your home server is a straightforward process that can significantly enhance the performance and storage capacity of your system. By following the steps outlined in this article, you can ensure that your server is optimized for speed and reliability. Whether you&#39;re a gamer, a developer, or someone who simply wants to centralize and back up all their data, upgrading to an NVMe SSD is a smart investment that can pay off in improved performance and peace of mind.</p>
 
 <section class="gear">
   <h2>Recommended gear</h2>
@@ -187,7 +225,7 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
   <a href="https://paxeko530.github.io/how-we-choose.html">how we choose</a>. As an Amazon Associate,
   SoloStack earns from qualifying purchases at no extra cost to you.</p>
 </section>
-<nav class="prevnext"><a href="https://paxeko530.github.io/posts/juggling-multiple-clients-without-missing-deadlines.html">&larr; Juggling multiple clients without missing deadlines</a><a href="https://paxeko530.github.io/posts/freelancer-cash-flow-management.html">How to manage cash flow when you work for yourself &rarr;</a></nav>
+<nav class="prevnext"><a href="https://paxeko530.github.io/posts/ups-for-a-home-server.html">&larr; Do you need a UPS for your home server?</a><a href="https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html">Raspberry Pi versus a mini PC for self-hosting &rarr;</a></nav>
 <section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="how to choose a nas for home backups and file storage home nas network storage backup server" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html"><img src="https://paxeko530.github.io/img/choose-a-nas-for-home-backups.png" width="1200" height="630" alt="How to choose a NAS for home backups and file storage" loading="lazy"></a>
 <div class="body">

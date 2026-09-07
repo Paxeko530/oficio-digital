@@ -4,7 +4,7 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 07 Sep 2026 21:49:22 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 21:59:16 GMT</lastBuildDate>
   <item>
     <title>How to choose a NAS for home backups and file storage</title>
     <link>https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html</link>
@@ -22,6 +22,15 @@
     <category>Home Office</category>
     <description>In today’s office landscape, the demand for ergonomic and spaceefficient solutions is on the rise. One of the most effective ways to achieve both comfort and a clutterfree workspace is by installing a monitor arm. These versatile accessories not only elevate your monitor to the p</description>
     <enclosure url="https://paxeko530.github.io/img/choosing-a-monitor-arm.png" type="image/png"/>
+  </item>
+  <item>
+    <title>A beginner guide to Docker for self-hosting</title>
+    <link>https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Docker is a powerful tool for developers and system administrators that allows you to package and run applications in lightweight, portable containers. By using Docker, you can create a consistent development environment, streamline application deployment, and simplify maintenanc</description>
+    <enclosure url="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png" type="image/png"/>
   </item>
   <item>
     <title>How to set freelance rates: hourly versus project pricing</title>
@@ -49,6 +58,24 @@
     <category>Self-Hosting &amp; Local AI</category>
     <description>Setting up a home server can provide numerous benefits, such as centralized storage, backup solutions, media streaming, and remote access to your files and applications. However, not everyone wants a bulky, powerhungry desktop computer to serve as their home server. That&#39;s where </description>
     <enclosure url="https://paxeko530.github.io/img/low-power-home-server-mini-pc.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Raspberry Pi versus a mini PC for self-hosting</title>
+    <link>https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>When it comes to setting up a home server for personal use, you have several options, but two of the most popular choices are the Raspberry Pi and a mini PC. Both devices are compact and affordable, but they cater to different needs and come with distinct advantages and limitatio</description>
+    <enclosure url="https://paxeko530.github.io/img/raspberry-pi-vs-mini-pc-self-hosting.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Adding fast SSD storage to a home server</title>
+    <link>https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Adding fast SSD storage to a home server is a great way to boost performance and expand your storage capacity, especially if you&#39;re dealing with large files or running resourceintensive applications. Whether you&#39;re a gamer, a developer, or someone who simply wants to centralize a</description>
+    <enclosure url="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png" type="image/png"/>
   </item>
   <item>
     <title>Do you need a UPS for your home server?</title>

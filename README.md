@@ -24,16 +24,16 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 
 - **[How to choose a NAS for home backups and file storage](https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Choosing a monitor arm to reclaim desk space](https://paxeko530.github.io/posts/choosing-a-monitor-arm.html)** &nbsp;<sub>Home Office</sub>
+- **[A beginner guide to Docker for self-hosting](https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[How to set freelance rates: hourly versus project pricing](https://paxeko530.github.io/posts/how-to-set-freelance-rates.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[Using a local LLM as a coding assistant in your editor](https://paxeko530.github.io/posts/local-llm-coding-assistant.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Building a low-power home server with a mini PC](https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[Raspberry Pi versus a mini PC for self-hosting](https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[Adding fast SSD storage to a home server](https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Do you need a UPS for your home server?](https://paxeko530.github.io/posts/ups-for-a-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Building an ergonomic desk setup at home on a budget](https://paxeko530.github.io/posts/affordable-ergonomic-desk-setup.html)** &nbsp;<sub>Home Office</sub>
 - **[The best invoicing apps for freelancers in 2026](https://paxeko530.github.io/posts/best-invoicing-apps-for-freelancers.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[How to choose the right local LLM for each task](https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
-- **[Dual monitors for remote work: when it pays off and how to set it up](https://paxeko530.github.io/posts/dual-monitors-for-remote-work-worth-it.html)** &nbsp;<sub>Home Office</sub>
-- **[How to manage cash flow when you work for yourself](https://paxeko530.github.io/posts/freelancer-cash-flow-management.html)** &nbsp;<sub>Freelance Tools</sub>
-- **[What hardware you need for local LLM inference in 2026](https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 
 <p align="right"><a href="https://paxeko530.github.io/"><strong>See all &rarr;</strong></a></p>
 

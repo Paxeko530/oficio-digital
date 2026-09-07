@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What hardware you need for local LLM inference in 2026 — SoloStack</title>
-<meta name="description" content="llm hardware, inference gpu, model ram">
-<link rel="canonical" href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">
+<title>A beginner guide to Docker for self-hosting — SoloStack</title>
+<meta name="description" content="Docker, self-hosting, containers">
+<link rel="canonical" href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html">
 <link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/feed.xml">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="SoloStack">
-<meta property="og:title" content="What hardware you need for local LLM inference in 2026 — SoloStack">
-<meta property="og:description" content="llm hardware, inference gpu, model ram">
-<meta property="og:url" content="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">
-<meta property="og:image" content="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png">
-<meta property="og:image:alt" content="What hardware you need for local LLM inference in 2026">
-<meta property="article:published_time" content="2026-09-06">
-<meta property="article:modified_time" content="2026-09-06">
+<meta property="og:title" content="A beginner guide to Docker for self-hosting — SoloStack">
+<meta property="og:description" content="Docker, self-hosting, containers">
+<meta property="og:url" content="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html">
+<meta property="og:image" content="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png">
+<meta property="og:image:alt" content="A beginner guide to Docker for self-hosting">
+<meta property="article:published_time" content="2026-09-07">
+<meta property="article:modified_time" content="2026-09-07">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="What hardware you need for local LLM inference in 2026 — SoloStack">
-<meta name="twitter:description" content="llm hardware, inference gpu, model ram">
-<meta name="twitter:image" content="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png">
+<meta name="twitter:title" content="A beginner guide to Docker for self-hosting — SoloStack">
+<meta name="twitter:description" content="Docker, self-hosting, containers">
+<meta name="twitter:image" content="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"What hardware you need for local LLM inference in 2026","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html","image":"https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png","keywords":"llm hardware, inference gpu, model ram"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"What hardware you need for local LLM inference in 2026","item":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much GPU memory do I need for local LLM inference?","acceptedAnswer":{"@type":"Answer","text":"The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks."}},{"@type":"Question","name":"Can I use older hardware for LLM inference?","acceptedAnswer":{"@type":"Answer","text":"While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency."}},{"@type":"Question","name":"What is the role of RDMA in LLM inference?","acceptedAnswer":{"@type":"Answer","text":"RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"A beginner guide to Docker for self-hosting","datePublished":"2026-09-07","dateModified":"2026-09-07","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html","image":"https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png","keywords":"Docker, self-hosting, containers"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"A beginner guide to Docker for self-hosting","item":"https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Can I use Docker on Windows or macOS?","acceptedAnswer":{"@type":"Answer","text":"Yes, Docker is available for Windows and macOS. You can download the Docker Desktop application from the Docker website, which provides a user-friendly interface for managing Docker containers on these operating systems."}},{"@type":"Question","name":"How do I update Docker?","acceptedAnswer":{"@type":"Answer","text":"To update Docker, you can use the package manager on your system. For example, on Ubuntu, you can update Docker using the following commands: ```bash sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io ``` On Windows and macOS, Docker Desktop typically handles updates automatically."}},{"@type":"Question","name":"What are some best practices for using Docker?","acceptedAnswer":{"@type":"Answer","text":"- **Use Docker Compose**: For managing multiple containers, Docker Compose is a useful tool that allows you to define and run multi-container Docker applications. - **Automate Builds**: Use Dockerfiles to automate the build process for your containers. - **Use Docker Hub or a Private Registry**: Store your Docker images in a registry to easily share and deploy them across multiple environments."}}]}]}</script>
 <style>
 @font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
 @font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
@@ -143,68 +143,105 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <article class="post">
 <p class="crumbs"><a href="https://paxeko530.github.io/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></p>
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h1>What hardware you need for local LLM inference in 2026</h1>
-<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>4 min read</span></div>
+<h1>A beginner guide to Docker for self-hosting</h1>
+<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>5 min read</span></div>
 <div class="share">
-<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fhardware-for-local-llm-inference-2026-pin.png&description=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Save to Pinterest</a>
-<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html&text=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Post on X</a>
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fhardware-for-local-llm-inference-2026.html" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fdocker-for-self-hosting-beginners.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fdocker-for-self-hosting-beginners-pin.png&description=A%20beginner%20guide%20to%20Docker%20for%20self-hosting" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fdocker-for-self-hosting-beginners.html&text=A%20beginner%20guide%20to%20Docker%20for%20self-hosting" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fdocker-for-self-hosting-beginners.html" target="_blank" rel="noopener">LinkedIn</a>
 <button id="copylink" type="button">Copy link</button>
 </div>
-<img class="hero-img" src="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" fetchpriority="high">
-<div class="prod prod-featured">
-  <p class="prod-tag">Top pick</p>
-  <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
-  <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
-  <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
-</div>
-<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#cpus-and-cores">CPUs and Cores</a></li><li><a href="#gpus-and-memory">GPUs and Memory</a></li><li><a href="#memory-and-storage">Memory and Storage</a></li><li><a href="#networking-and-connectivity">Networking and Connectivity</a></li><li><a href="#power-supply-and-cooling">Power Supply and Cooling</a></li></ol></nav>
-<p>Local Large Language Model (LLM) inference in 2026 will rely on a blend of powerful hardware components designed to handle the computational demands of running sophisticated AI models efficiently and responsively. As the complexity and size of these models continue to grow, so too does the need for robust hardware infrastructure that can support real-time processing, lower latency, and high throughput. This article will guide you through the essential hardware requirements for running LLMs locally, including CPUs, GPUs, memory, storage, and networking components, ensuring your system is well-equipped to meet the evolving needs of AI-driven applications.</p>
-<h2 id="cpus-and-cores">CPUs and Cores</h2>
-<p>The central processing unit (CPU) serves as the brain of your system, managing tasks and coordinating data flow between other components. For LLM inference in 2026, multi-core processors with advanced architecture are crucial. Look for CPUs with at least 16 cores and support for advanced features like hyper-threading, which can significantly enhance multi-threaded performance. Modern CPUs, such as those from Intel&#39;s Xeon or AMD&#39;s EPYC series, offer excellent performance and scalability, making them ideal choices for running resource-intensive AI models. Additionally, CPUs with robust cache and high-speed memory interfaces will help in accelerating the inference process by reducing latency and increasing data throughput.</p>
-<h2 id="gpus-and-memory">GPUs and Memory</h2>
-<p>Graphics Processing Units (GPUs) are the backbone of modern AI and machine learning applications, providing the parallel processing power necessary for efficient model inference. In 2026, for local LLM inference, you should aim for GPUs with significant memory capacity and high computational throughput. GPUs from NVIDIA&#39;s A100 or H100 series, or AMD&#39;s MI300 series, are well-regarded for their advanced features, such as Tensor Cores and large memory capacities, which are essential for handling large model sizes and complex inference tasks. A minimum of 48GB of GPU memory is recommended for handling contemporary LLMs, with 80GB or more being preferable for future-proofing your setup. Ensure your GPU has sufficient PCIe bandwidth and supports the latest standards for optimal performance.</p>
-<h2 id="memory-and-storage">Memory and Storage</h2>
-<p>Memory and storage are critical for running LLMs locally, as they directly impact the model&#39;s performance and responsiveness. For memory, look for high-speed, low-latency RAM with at least 64GB for standard operations, scaling up to 256GB or more for handling larger models or multiple concurrent inference tasks. DDR5 RAM, with its faster speeds and higher bandwidth, is highly recommended for its efficiency and performance. Storage-wise, consider using NVMe SSDs with high sequential read and write speeds, providing quick access to large datasets and models. Having at least 1TB of NVMe storage is advisable, with 2TB or more being ideal for future scalability and redundancy.</p>
-<h2 id="networking-and-connectivity">Networking and Connectivity</h2>
-<p>Effective networking is crucial for transferring large datasets and model parameters efficiently, especially in distributed training scenarios. For local LLM inference, a high-speed network interface card (NIC) with 10Gbps or higher throughput is recommended, allowing for seamless data transfer and minimizing latency. Additionally, consider implementing RDMA (Remote Direct Memory Access) to further enhance performance by allowing direct data transfer between memory spaces without CPU intervention. For edge deployments, robust wireless connectivity solutions, such as 5G or Wi-Fi 6E, can provide reliable and fast data exchange capabilities.</p>
-<h2 id="power-supply-and-cooling">Power Supply and Cooling</h2>
-<p>Running high-performance hardware for extended periods requires reliable power supply and efficient cooling solutions. Ensure your system has a high-quality power supply unit (PSU) that can handle the power requirements of your components, with at least 850W being a good starting point for a well-equipped system. Additionally, invest in a robust cooling solution, such as liquid cooling or high-performance air cooling, to maintain optimal operating temperatures and prevent overheating, which can degrade performance and longevity.</p>
+<img class="hero-img" src="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png" width="1200" height="630" alt="A beginner guide to Docker for self-hosting" fetchpriority="high">
 
-<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>How much GPU memory do I need for local LLM inference?</summary><p>The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks.</p></details><details><summary>Can I use older hardware for LLM inference?</summary><p>While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency.</p></details><details><summary>What is the role of RDMA in LLM inference?</summary><p>RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications.</p></details></section>
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#getting-started-with-docker">Getting Started with Docker</a></li><li><a href="#creating-your-first-docker-container">Creating Your First Docker Container</a></li><li><a href="#understanding-docker-commands">Understanding Docker Commands</a></li><li><a href="#self-hosting-applications-with-docker">Self-Hosting Applications with Docker</a></li></ol></nav>
+<p>Docker is a powerful tool for developers and system administrators that allows you to package and run applications in lightweight, portable containers. By using Docker, you can create a consistent development environment, streamline application deployment, and simplify maintenance. For individuals interested in self-hosting applications and services, Docker offers a straightforward way to manage and run software without the need for complex server configurations. This guide will walk you through the basics of Docker, including installation, creating your first container, and common use cases for self-hosting.</p>
+<h2 id="getting-started-with-docker">Getting Started with Docker</h2>
+<p>Before diving into Docker, it&#39;s important to understand what it does and how it works. Docker uses the concept of containers, which are lightweight, standalone, and executable packages that include everything needed to run an application, such as code, runtime, system tools, libraries, and settings. Unlike traditional virtual machines, containers share the host operating system’s kernel, which makes them more resource-efficient.</p>
+<p>To get started, you&#39;ll need to install Docker on your system. Docker is available for Windows, macOS, and Linux. Visit the Docker website to download the appropriate version for your operating system. Follow the installation instructions provided to set up Docker on your machine.</p>
+<p>Once Docker is installed, you can verify the installation by running <code>docker --version</code> in your terminal or command prompt. This command will display the version of Docker installed on your system, confirming that the installation was successful.</p>
+<h2 id="creating-your-first-docker-container">Creating Your First Docker Container</h2>
+<p>Now that Docker is installed, let&#39;s create your first container. Docker containers are created from Docker images, which are essentially templates for your containers. Docker Hub is a popular repository where you can find a wide range of images for various applications.</p>
+<p>To pull an image from Docker Hub and run a container, you can use the following commands:</p>
+<pre><code class="language-bash">docker pull hello-world
+docker run hello-world
+</code></pre>
+<p>The <code>docker pull</code> command downloads the <code>hello-world</code> image from Docker Hub, and the <code>docker run</code> command creates and starts a container using that image. You should see a message confirming that Docker is working correctly.</p>
+<h2 id="understanding-docker-commands">Understanding Docker Commands</h2>
+<p>Docker provides a rich set of commands to manage images, containers, networks, and more. Here are some of the most commonly used Docker commands:</p>
+<ul>
+<li><strong><code>docker images</code></strong>: Lists all the Docker images installed on your system.</li>
+<li><strong><code>docker ps</code></strong>: Shows all the running containers.</li>
+<li><strong><code>docker ps -a</code></strong>: Lists all containers, including those that are not running.</li>
+<li><strong><code>docker run</code></strong>: Runs a new container based on an image.</li>
+<li><strong><code>docker stop</code></strong>: Stops a running container.</li>
+<li><strong><code>docker rm</code></strong>: Removes a stopped container.</li>
+<li><strong><code>docker rmi</code></strong>: Removes an image.</li>
+</ul>
+<p>Familiarizing yourself with these commands is essential for managing Docker containers effectively.</p>
+<h2 id="self-hosting-applications-with-docker">Self-Hosting Applications with Docker</h2>
+<p>One of the primary benefits of Docker is its ability to simplify self-hosting applications. Whether you want to host a personal blog, a media server, or any other type of application, Docker can help you set up a reliable and efficient environment.</p>
+<h3 id="setting-up-a-media-server">Setting Up a Media Server</h3>
+<p>Let&#39;s walk through an example of setting up a media server using Docker. One popular option is Emby, an open-source media server that provides a wide range of features for managing and streaming media.</p>
+<ol>
+<li><p><strong>Pull the Emby Docker Image:</strong></p>
+<pre><code class="language-bash">docker pull emby/embyserver
+</code></pre>
+</li>
+<li><p><strong>Run the Emby Container:</strong></p>
+<pre><code class="language-bash">docker run -d --name emby -v /path/to/your/media:/media -p 8096:8096 emby/embyserver
+</code></pre>
+<p>This command starts the Emby server in a container. The <code>-v</code> flag mounts your local media directory to the container, and the <code>-p</code> flag maps port 8096 on your host to port 8096 in the container, allowing you to access the Emby web interface.</p>
+</li>
+<li><p><strong>Accessing Emby:</strong></p>
+<p>Open a web browser and navigate to <code>http://localhost:8096</code> to access the Emby web interface and start managing your media collection.</p>
+</li>
+</ol>
+<h3 id="setting-up-a-personal-blog">Setting Up a Personal Blog</h3>
+<p>If you want to host a personal blog, you can use Docker to set up a WordPress site with a MySQL database.</p>
+<ol>
+<li><p><strong>Pull the WordPress and MySQL Images:</strong></p>
+<pre><code class="language-bash">docker pull wordpress
+docker pull mysql
+</code></pre>
+</li>
+<li><p><strong>Run the MySQL Container:</strong></p>
+<pre><code class="language-bash">docker run --name mysql -e MYSQL_ROOT_PASSWORD=yourpassword -e MYSQL_DATABASE=wordpress -d mysql
+</code></pre>
+<p>This command starts a MySQL container with a specified root password and a pre-created database for WordPress.</p>
+</li>
+<li><p><strong>Run the WordPress Container:</strong></p>
+<pre><code class="language-bash">docker run --name wordpress -p 8080:80 -e WORDPRESS_DB_HOST=mysql:3306 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=yourpassword -d wordpress
+</code></pre>
+<p>This command starts a WordPress container, mapping port 8080 on your host to port 80 in the container, and sets up the database connection.</p>
+</li>
+<li><p><strong>Accessing WordPress:</strong></p>
+<p>Open a web browser and navigate to <code>http://localhost:8080</code> to access your WordPress site.</p>
+</li>
+</ol>
+
+<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>Can I use Docker on Windows or macOS?</summary><p>Yes, Docker is available for Windows and macOS. You can download the Docker Desktop application from the Docker website, which provides a user-friendly interface for managing Docker containers on these operating systems.</p></details><details><summary>How do I update Docker?</summary><p>To update Docker, you can use the package manager on your system. For example, on Ubuntu, you can update Docker using the following commands: ```bash sudo apt-get update sudo apt-get install docker-ce docker-ce-cli containerd.io ``` On Windows and macOS, Docker Desktop typically handles updates automatically.</p></details><details><summary>What are some best practices for using Docker?</summary><p>- **Use Docker Compose**: For managing multiple containers, Docker Compose is a useful tool that allows you to define and run multi-container Docker applications. - **Automate Builds**: Use Dockerfiles to automate the build process for your containers. - **Use Docker Hub or a Private Registry**: Store your Docker images in a registry to easily share and deploy them across multiple environments.</p></details></section>
 <h2 id="conclusion">Conclusion</h2>
-<p>Running local Large Language Model inference in 2026 requires a carefully selected blend of hardware components that can handle the computational demands of sophisticated AI models. By investing in powerful CPUs, high-performance GPUs, ample memory and storage, robust networking solutions, and reliable power supply and cooling systems, you can ensure your setup is well-equipped to deliver efficient and responsive AI-driven applications. As the field continues to evolve, staying informed about the latest hardware advancements will help you maintain a competitive edge in the AI landscape.</p>
+<p>Docker is an invaluable tool for anyone looking to streamline application development and deployment. By following this guide, you should now have a solid understanding of how to set up and use Docker for self-hosting applications. Docker’s flexibility and ease of use make it a go-to solution for developers and system administrators alike. Whether you’re setting up a personal blog, a media server, or any other type of application, Docker can help you achieve your goals with minimal effort.</p>
 
-<section class="gear">
-  <h2>Recommended gear</h2>
-  <div class="gear-list"><div class="prod">
-  
-  <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
-  <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
-  <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
-</div></div>
-  <p class="disclosure">We pick gear that fits the job, not by commission &mdash;
-  <a href="https://paxeko530.github.io/how-we-choose.html">how we choose</a>. As an Amazon Associate,
-  SoloStack earns from qualifying purchases at no extra cost to you.</p>
-</section>
-<nav class="prevnext"><a href="https://paxeko530.github.io/posts/juggling-multiple-clients-without-missing-deadlines.html">&larr; Juggling multiple clients without missing deadlines</a><a href="https://paxeko530.github.io/posts/freelancer-cash-flow-management.html">How to manage cash flow when you work for yourself &rarr;</a></nav>
+
+<nav class="prevnext"><a href="https://paxeko530.github.io/posts/how-to-set-freelance-rates.html">&larr; How to set freelance rates: hourly versus project pricing</a><a href="https://paxeko530.github.io/posts/choosing-a-monitor-arm.html">Choosing a monitor arm to reclaim desk space &rarr;</a></nav>
 <section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="how to choose a nas for home backups and file storage home nas network storage backup server" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html"><img src="https://paxeko530.github.io/img/choose-a-nas-for-home-backups.png" width="1200" height="630" alt="How to choose a NAS for home backups and file storage" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html">How to choose a NAS for home backups and file storage</a></h3>
 <p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="a beginner guide to docker for self-hosting docker self-hosting containers" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html"><img src="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png" width="1200" height="630" alt="A beginner guide to Docker for self-hosting" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html">A beginner guide to Docker for self-hosting</a></h3>
-<p class="meta">2026-09-07</p>
 </div></article><article class="card" data-title="using a local llm as a coding assistant in your editor local llm coding assistant offline ai" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html"><img src="https://paxeko530.github.io/img/local-llm-coding-assistant.png" width="1200" height="630" alt="Using a local LLM as a coding assistant in your editor" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html">Using a local LLM as a coding assistant in your editor</a></h3>
+<p class="meta">2026-09-07</p>
+</div></article><article class="card" data-title="building a low-power home server with a mini pc home server mini pc low power" data-cat="ia">
+<a class="cover" href="https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html"><img src="https://paxeko530.github.io/img/low-power-home-server-mini-pc.png" width="1200" height="630" alt="Building a low-power home server with a mini PC" loading="lazy"></a>
+<div class="body">
+<span class="tag ia">Self-Hosting &amp; Local AI</span>
+<h3><a href="https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html">Building a low-power home server with a mini PC</a></h3>
 <p class="meta">2026-09-07</p>
 </div></article></div></section>
 </article>
