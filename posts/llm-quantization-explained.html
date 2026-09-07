@@ -5,20 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LLM quantization explained without the jargon — SoloStack</title>
 <meta name="description" content="quantization, GGUF, local models">
-<link rel="canonical" href="https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html">
-<link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/oficio-digital/feed.xml">
+<link rel="canonical" href="https://paxeko530.github.io/posts/llm-quantization-explained.html">
+<link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SoloStack">
 <meta property="og:title" content="LLM quantization explained without the jargon — SoloStack">
 <meta property="og:description" content="quantization, GGUF, local models">
-<meta property="og:url" content="https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html">
-<meta property="og:image" content="https://paxeko530.github.io/oficio-digital/img/llm-quantization-explained.png">
+<meta property="og:url" content="https://paxeko530.github.io/posts/llm-quantization-explained.html">
+<meta property="og:image" content="https://paxeko530.github.io/img/llm-quantization-explained.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="https://paxeko530.github.io/oficio-digital/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;700&display=swap">
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"LLM quantization explained without the jargon","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html","image":"https://paxeko530.github.io/oficio-digital/img/llm-quantization-explained.png","keywords":"quantization, GGUF, local models"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/oficio-digital/"},{"@type":"ListItem","position":2,"name":"Local AI","item":"https://paxeko530.github.io/oficio-digital/category-ia.html"},{"@type":"ListItem","position":3,"name":"LLM quantization explained without the jargon","item":"https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much performance is lost with quantization?","acceptedAnswer":{"@type":"Answer","text":"The extent of performance loss varies depending on the model and the type of quantization applied. Generally, full-integer quantization can result in more significant accuracy loss compared to mixed-precision quantization. However, with careful tuning and the use of advanced quantization techniques, the performance loss can be minimized, and in many cases, the benefits of reduced resource requirements outweigh the slight decrease in performance."}},{"@type":"Question","name":"Can any model be quantized?","acceptedAnswer":{"@type":"Answer","text":"Most models can be quantized to some extent, but the effectiveness of quantization depends on the model architecture and the specific task. Models that are trained with high precision and require fine-grained accuracy may be more challenging to quantize effectively. However, with the right techniques and tools, many models can be successfully quantized to improve their efficiency without compromising too much on performance."}},{"@type":"Question","name":"What are the benefits of using GGUF over other formats?","acceptedAnswer":{"@type":"Answer","text":"GGUF is particularly advantageous for storing and sharing quantized models due to its efficient storage format and support for various quantization types. It allows for easy deployment of models across different platforms and devices, making it a versatile choice for those looking to optimize their models for edge computing and local deployments."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"LLM quantization explained without the jargon","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/llm-quantization-explained.html","image":"https://paxeko530.github.io/img/llm-quantization-explained.png","keywords":"quantization, GGUF, local models"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"LLM quantization explained without the jargon","item":"https://paxeko530.github.io/posts/llm-quantization-explained.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much performance is lost with quantization?","acceptedAnswer":{"@type":"Answer","text":"The extent of performance loss varies depending on the model and the type of quantization applied. Generally, full-integer quantization can result in more significant accuracy loss compared to mixed-precision quantization. However, with careful tuning and the use of advanced quantization techniques, the performance loss can be minimized, and in many cases, the benefits of reduced resource requirements outweigh the slight decrease in performance."}},{"@type":"Question","name":"Can any model be quantized?","acceptedAnswer":{"@type":"Answer","text":"Most models can be quantized to some extent, but the effectiveness of quantization depends on the model architecture and the specific task. Models that are trained with high precision and require fine-grained accuracy may be more challenging to quantize effectively. However, with the right techniques and tools, many models can be successfully quantized to improve their efficiency without compromising too much on performance."}},{"@type":"Question","name":"What are the benefits of using GGUF over other formats?","acceptedAnswer":{"@type":"Answer","text":"GGUF is particularly advantageous for storing and sharing quantized models due to its efficient storage format and support for various quantization types. It allows for easy deployment of models across different platforms and devices, making it a versatile choice for those looking to optimize their models for edge computing and local deployments."}}]}]}</script>
 <style>
 :root{
   --fg:#16181d;--muted:#5b6270;--bg:#fff;--soft:#f5f6f8;--line:#e6e8ec;
@@ -126,25 +126,25 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <body>
 <div id="progress"></div>
 <header class="site"><div class="wrap">
-<a class="brand" href="https://paxeko530.github.io/oficio-digital/">SoloStack</a>
-<nav class="main"><a href="https://paxeko530.github.io/oficio-digital/category-freelancer.html">Freelance Tools</a><a href="https://paxeko530.github.io/oficio-digital/category-escritorio.html">Home Office</a><a href="https://paxeko530.github.io/oficio-digital/category-ia.html">Local AI</a></nav>
+<a class="brand" href="https://paxeko530.github.io/">SoloStack</a>
+<nav class="main"><a href="https://paxeko530.github.io/category-freelancer.html">Freelance Tools</a><a href="https://paxeko530.github.io/category-escritorio.html">Home Office</a><a href="https://paxeko530.github.io/category-ia.html">Local AI</a></nav>
 <span class="nav-spacer"></span>
-<nav class="main"><a href="https://paxeko530.github.io/oficio-digital/about.html">About</a></nav>
+<nav class="main"><a href="https://paxeko530.github.io/about.html">About</a></nav>
 <button id="theme" class="iconbtn" type="button" aria-label="Toggle dark mode" title="Toggle theme">&#9681;</button>
 </div></header>
 <main class="wrap" style="max-width:900px">
 <article class="post">
-<p class="crumbs"><a href="https://paxeko530.github.io/oficio-digital/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/oficio-digital/category-ia.html">Local AI</a></p>
+<p class="crumbs"><a href="https://paxeko530.github.io/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/category-ia.html">Local AI</a></p>
 <span class="tag ia">Local AI</span>
 <h1>LLM quantization explained without the jargon</h1>
 <div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>5 min read</span></div>
 <div class="share">
-<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fllm-quantization-explained.html&media=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fimg%2Fllm-quantization-explained-pin.png&description=LLM%20quantization%20explained%20without%20the%20jargon" target="_blank" rel="noopener">Save to Pinterest</a>
-<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fllm-quantization-explained.html&text=LLM%20quantization%20explained%20without%20the%20jargon" target="_blank" rel="noopener">Post on X</a>
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fllm-quantization-explained.html" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fllm-quantization-explained.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fllm-quantization-explained-pin.png&description=LLM%20quantization%20explained%20without%20the%20jargon" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fllm-quantization-explained.html&text=LLM%20quantization%20explained%20without%20the%20jargon" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fllm-quantization-explained.html" target="_blank" rel="noopener">LinkedIn</a>
 <button id="copylink" type="button">Copy link</button>
 </div>
-<img class="hero-img" src="https://paxeko530.github.io/oficio-digital/img/llm-quantization-explained.png" width="1200" height="630" alt="LLM quantization explained without the jargon" fetchpriority="high">
+<img class="hero-img" src="https://paxeko530.github.io/img/llm-quantization-explained.png" width="1200" height="630" alt="LLM quantization explained without the jargon" fetchpriority="high">
 
 <nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#what-is-quantization">What is Quantization?</a></li><li><a href="#why-is-quantization-important-for-llms">Why is Quantization Important for LLMs?</a></li><li><a href="#types-of-quantization">Types of Quantization</a></li><li><a href="#quantization-formats-and-tools">Quantization Formats and Tools</a></li><li><a href="#challenges-and-limitations-of-quantization">Challenges and Limitations of Quantization</a></li></ol></nav>
 <p>Quantum computing and artificial intelligence are two of the most exciting frontiers in technology today, each promising to revolutionize how we solve complex problems. However, when it comes to large language models (LLMs), there&#39;s another term that&#39;s gaining traction: quantization. Quantization is a technique used to reduce the computational and storage requirements of these models, making them more accessible and efficient. In this article, we&#39;ll explore what quantization is, how it works, and why it&#39;s so important for deploying large language models, especially in environments where computational resources are limited.</p>
@@ -166,33 +166,33 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <p>Quantization is a powerful technique for making large language models more accessible and efficient. By reducing the size and computational requirements of these models, quantization enables their deployment in a wide range of environments, from powerful servers to edge devices. While it comes with some challenges, the benefits of quantization, such as improved performance on resource-constrained devices and reduced energy consumption, make it an essential tool for anyone working with large language models. As the field continues to evolve, we can expect even more advanced quantization techniques and tools to emerge, further democratizing access to cutting-edge AI technologies.</p>
 
 
-<nav class="prevnext"><a href="https://paxeko530.github.io/oficio-digital/posts/run-a-local-llm-with-ollama-beginners-guide.html">&larr; Running a local LLM with Ollama: a beginner&#39;s guide</a><a href="https://paxeko530.github.io/oficio-digital/posts/juggling-multiple-clients-without-missing-deadlines.html">Juggling multiple clients without missing deadlines &rarr;</a></nav>
+<nav class="prevnext"><a href="https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html">&larr; Running a local LLM with Ollama: a beginner&#39;s guide</a><a href="https://paxeko530.github.io/posts/juggling-multiple-clients-without-missing-deadlines.html">Juggling multiple clients without missing deadlines &rarr;</a></nav>
 <section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="how to choose the right local llm for each task choose an llm local models parameters and context" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/choosing-the-right-local-llm-for-the-task.html"><img src="https://paxeko530.github.io/oficio-digital/img/choosing-the-right-local-llm-for-the-task.png" width="1200" height="630" alt="How to choose the right local LLM for each task" loading="lazy"></a>
+<a class="cover" href="https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html"><img src="https://paxeko530.github.io/img/choosing-the-right-local-llm-for-the-task.png" width="1200" height="630" alt="How to choose the right local LLM for each task" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Local AI</span>
-<h3><a href="https://paxeko530.github.io/oficio-digital/posts/choosing-the-right-local-llm-for-the-task.html">How to choose the right local LLM for each task</a></h3>
+<h3><a href="https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html">How to choose the right local LLM for each task</a></h3>
 <p class="meta">2026-09-06</p>
 </div></article><article class="card" data-title="what hardware you need for local llm inference in 2026 llm hardware inference gpu model ram" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html"><img src="https://paxeko530.github.io/oficio-digital/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" loading="lazy"></a>
+<a class="cover" href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html"><img src="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Local AI</span>
-<h3><a href="https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html">What hardware you need for local LLM inference in 2026</a></h3>
+<h3><a href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">What hardware you need for local LLM inference in 2026</a></h3>
 <p class="meta">2026-09-06</p>
 </div></article><article class="card" data-title="running a local llm with ollama: a beginner&#39;s guide ollama local llm open source models" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/run-a-local-llm-with-ollama-beginners-guide.html"><img src="https://paxeko530.github.io/oficio-digital/img/run-a-local-llm-with-ollama-beginners-guide.png" width="1200" height="630" alt="Running a local LLM with Ollama: a beginner&#39;s guide" loading="lazy"></a>
+<a class="cover" href="https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html"><img src="https://paxeko530.github.io/img/run-a-local-llm-with-ollama-beginners-guide.png" width="1200" height="630" alt="Running a local LLM with Ollama: a beginner&#39;s guide" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Local AI</span>
-<h3><a href="https://paxeko530.github.io/oficio-digital/posts/run-a-local-llm-with-ollama-beginners-guide.html">Running a local LLM with Ollama: a beginner&#39;s guide</a></h3>
+<h3><a href="https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html">Running a local LLM with Ollama: a beginner&#39;s guide</a></h3>
 <p class="meta">2026-09-06</p>
 </div></article></div></section>
 </article>
 </main>
 <button id="top" type="button" aria-label="Back to top">&uarr;</button>
-<div id="consent" class="consent" hidden>This site uses cookies for basic analytics and affiliate tracking. <a href="https://paxeko530.github.io/oficio-digital/disclosure.html">Learn more</a>.<button type="button">OK</button></div>
+<div id="consent" class="consent" hidden>This site uses cookies for basic analytics and affiliate tracking. <a href="https://paxeko530.github.io/disclosure.html">Learn more</a>.<button type="button">OK</button></div>
 <footer class="site"><div class="wrap">
 <span>&copy; 2026 SoloStack &middot; Practical guides for independent workers.</span>
-<nav><a href="https://paxeko530.github.io/oficio-digital/about.html">About</a><a href="https://paxeko530.github.io/oficio-digital/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/oficio-digital/contact.html">Contact</a><a href="https://paxeko530.github.io/oficio-digital/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/oficio-digital/feed.xml">RSS</a></nav>
+<nav><a href="https://paxeko530.github.io/about.html">About</a><a href="https://paxeko530.github.io/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/contact.html">Contact</a><a href="https://paxeko530.github.io/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/feed.xml">RSS</a></nav>
 </div></footer>
 <script>
 (function(){

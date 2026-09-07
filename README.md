@@ -1,3 +1,3 @@
 # SoloStack
 
-Published site. Read it at https://paxeko530.github.io/oficio-digital/
+Published site. Read it at https://paxeko530.github.io/
