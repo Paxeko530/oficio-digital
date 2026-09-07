@@ -4,7 +4,16 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 07 Sep 2026 18:42:54 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 07 Sep 2026 21:22:07 GMT</lastBuildDate>
+  <item>
+    <title>How to choose a NAS for home backups and file storage</title>
+    <link>https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Choosing the right Network Attached Storage (NAS) device for your home can be a crucial decision, especially if you&#39;re looking to store and back up large amounts of data. With the increasing amount of digital content we generate daily, from photos and videos to documents and musi</description>
+    <enclosure url="https://paxeko530.github.io/img/choose-a-nas-for-home-backups.png" type="image/png"/>
+  </item>
   <item>
     <title>Choosing a monitor arm to reclaim desk space</title>
     <link>https://paxeko530.github.io/posts/choosing-a-monitor-arm.html</link>
@@ -28,9 +37,27 @@
     <link>https://paxeko530.github.io/posts/local-llm-coding-assistant.html</link>
     <guid isPermaLink="true">https://paxeko530.github.io/posts/local-llm-coding-assistant.html</guid>
     <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Local AI</category>
+    <category>Self-Hosting &amp; Local AI</category>
     <description>Local language models (LLMs) have gained significant traction in recent years for their ability to provide realtime assistance without the need for an internet connection. As a coding professional, you can leverage these models to enhance your productivity by integrating them dir</description>
     <enclosure url="https://paxeko530.github.io/img/local-llm-coding-assistant.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Building a low-power home server with a mini PC</title>
+    <link>https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Setting up a home server can provide numerous benefits, such as centralized storage, backup solutions, media streaming, and remote access to your files and applications. However, not everyone wants a bulky, powerhungry desktop computer to serve as their home server. That&#39;s where </description>
+    <enclosure url="https://paxeko530.github.io/img/low-power-home-server-mini-pc.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Do you need a UPS for your home server?</title>
+    <link>https://paxeko530.github.io/posts/ups-for-a-home-server.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/ups-for-a-home-server.html</guid>
+    <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>A home server can be a valuable addition to your home network, providing centralized storage, backup solutions, media streaming, and more. However, these servers are often left running 24/7, which means they need a reliable power supply. Uninterruptible Power Supplies (UPS) are d</description>
+    <enclosure url="https://paxeko530.github.io/img/ups-for-a-home-server.png" type="image/png"/>
   </item>
   <item>
     <title>Building an ergonomic desk setup at home on a budget</title>
@@ -55,7 +82,7 @@
     <link>https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html</link>
     <guid isPermaLink="true">https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html</guid>
     <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Local AI</category>
+    <category>Self-Hosting &amp; Local AI</category>
     <description>Choosing the right local language model (LLM) for your specific tasks can significantly enhance your productivity and the quality of your work. Local models offer several advantages, such as faster response times, better privacy, and the ability to work offline. However, with a m</description>
     <enclosure url="https://paxeko530.github.io/img/choosing-the-right-local-llm-for-the-task.png" type="image/png"/>
   </item>
@@ -82,7 +109,7 @@
     <link>https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html</link>
     <guid isPermaLink="true">https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html</guid>
     <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Local AI</category>
+    <category>Self-Hosting &amp; Local AI</category>
     <description>Local Large Language Model (LLM) inference in 2026 will rely on a blend of powerful hardware components designed to handle the computational demands of running sophisticated AI models efficiently and responsively. As the complexity and size of these models continue to grow, so to</description>
     <enclosure url="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" type="image/png"/>
   </item>
@@ -100,7 +127,7 @@
     <link>https://paxeko530.github.io/posts/llm-quantization-explained.html</link>
     <guid isPermaLink="true">https://paxeko530.github.io/posts/llm-quantization-explained.html</guid>
     <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Local AI</category>
+    <category>Self-Hosting &amp; Local AI</category>
     <description>Quantum computing and artificial intelligence are two of the most exciting frontiers in technology today, each promising to revolutionize how we solve complex problems. However, when it comes to large language models (LLMs), there&#39;s another term that&#39;s gaining traction: quantizat</description>
     <enclosure url="https://paxeko530.github.io/img/llm-quantization-explained.png" type="image/png"/>
   </item>
@@ -109,7 +136,7 @@
     <link>https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html</link>
     <guid isPermaLink="true">https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html</guid>
     <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Local AI</category>
+    <category>Self-Hosting &amp; Local AI</category>
     <description>Running a local LLM with Ollama can be a gamechanger for developers and enthusiasts looking to explore the capabilities of large language models without the need for cloud services. By running these models locally, you gain full control over your data, improve privacy, and reduce</description>
     <enclosure url="https://paxeko530.github.io/img/run-a-local-llm-with-ollama-beginners-guide.png" type="image/png"/>
   </item>
