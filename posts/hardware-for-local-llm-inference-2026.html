@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What hardware you need for local LLM inference in 2026 — SoloStack</title>
+<meta name="description" content="llm hardware, inference gpu, model ram">
+<link rel="canonical" href="https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html">
+<link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/oficio-digital/feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SoloStack">
+<meta property="og:title" content="What hardware you need for local LLM inference in 2026 — SoloStack">
+<meta property="og:description" content="llm hardware, inference gpu, model ram">
+<meta property="og:url" content="https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html">
+<meta property="og:image" content="https://paxeko530.github.io/oficio-digital/img/hardware-for-local-llm-inference-2026.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://paxeko530.github.io/oficio-digital/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;700&display=swap">
+<script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"What hardware you need for local LLM inference in 2026","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html","image":"https://paxeko530.github.io/oficio-digital/img/hardware-for-local-llm-inference-2026.png","keywords":"llm hardware, inference gpu, model ram"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/oficio-digital/"},{"@type":"ListItem","position":2,"name":"Local AI","item":"https://paxeko530.github.io/oficio-digital/category-ia.html"},{"@type":"ListItem","position":3,"name":"What hardware you need for local LLM inference in 2026","item":"https://paxeko530.github.io/oficio-digital/posts/hardware-for-local-llm-inference-2026.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much GPU memory do I need for local LLM inference?","acceptedAnswer":{"@type":"Answer","text":"The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks."}},{"@type":"Question","name":"Can I use older hardware for LLM inference?","acceptedAnswer":{"@type":"Answer","text":"While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency."}},{"@type":"Question","name":"What is the role of RDMA in LLM inference?","acceptedAnswer":{"@type":"Answer","text":"RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications."}}]}]}</script>
+<style>
+:root{
+  --fg:#16181d;--muted:#5b6270;--bg:#fff;--soft:#f5f6f8;--line:#e6e8ec;
+  --accent:#0b62ff;--amazon:#0f7a3d;--radius:14px;--wrap:1100px;
+  --c-freelancer:#0b62ff;--c-escritorio:#0f9d78;--c-ia:#7b3ff2;
+}
+:root[data-theme=dark],:root:not([data-theme=light]) .darkonly{}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--fg:#e9eaee;--muted:#9aa1ad;--bg:#0f1013;--soft:#181a1f;--line:#282b31;--accent:#4d8bff}}
+:root[data-theme=dark]{--fg:#e9eaee;--muted:#9aa1ad;--bg:#0f1013;--soft:#181a1f;--line:#282b31;--accent:#4d8bff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;font:17px/1.7 Inter,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--fg);background:var(--bg);-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;letter-spacing:-.01em}
+img{max-width:100%;height:auto;display:block}
+
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--accent);z-index:60;transition:width .1s}
+header.site{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;gap:20px;height:62px}
+.brand{font-family:Fraunces;font-weight:800;font-size:20px;color:var(--fg)}.brand:hover{text-decoration:none}
+nav.main{display:flex;gap:18px;flex-wrap:wrap;font-size:15px;font-weight:500}
+nav.main a{color:var(--muted)}nav.main a:hover{color:var(--fg);text-decoration:none}
+.nav-spacer{flex:1}
+.iconbtn{background:none;border:1px solid var(--line);color:var(--fg);width:36px;height:36px;border-radius:9px;cursor:pointer;font-size:15px;line-height:1}
+.iconbtn:hover{background:var(--soft)}
+
+.hero{padding:60px 0 36px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(34px,5vw,52px);margin:0 0 14px;max-width:16ch}
+.hero p{font-size:19px;color:var(--muted);max-width:56ch;margin:0 0 22px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:4px}
+#search{flex:1;min-width:220px;max-width:360px;padding:11px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg);font:inherit}
+.chips{display:flex;gap:9px;flex-wrap:wrap}
+.chip{display:inline-block;padding:8px 14px;border:1px solid var(--line);border-radius:999px;font-size:14px;font-weight:600;color:var(--fg);cursor:pointer;background:none;font-family:inherit}
+.chip:hover{background:var(--soft);text-decoration:none}
+.chip[aria-pressed=true]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+
+.section-title{font-size:24px;margin:40px 0 20px}
+.feature{display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:32px 0 8px;background:var(--bg);color:inherit;text-decoration:none;transition:box-shadow .15s}
+.feature:hover{box-shadow:0 16px 40px -16px rgba(0,0,0,.3);text-decoration:none}
+.feature img{width:100%;height:100%;object-fit:cover;aspect-ratio:1200/630}
+.feature-body{padding:28px 30px;align-self:center}
+.feature-body h2{font-size:27px;margin:12px 0 10px}
+.feature-body p{color:var(--muted);margin:0 0 14px}
+.feature-cta{font-weight:700;color:var(--accent)}
+@media(max-width:720px){.feature{grid-template-columns:1fr}}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:26px}
+.card{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--bg);transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px -12px rgba(0,0,0,.25)}
+.card.hide{display:none}
+.card a.cover{display:block;aspect-ratio:1200/630;overflow:hidden}
+.card a.cover img{width:100%;height:100%;object-fit:cover}
+.card .body{padding:16px 18px 20px}
+.tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:6px;color:#fff}
+.tag.freelancer{background:var(--c-freelancer)}.tag.escritorio{background:var(--c-escritorio)}.tag.ia{background:var(--c-ia)}
+.card h3{font-size:19px;margin:12px 0 8px}.card h3 a{color:var(--fg)}.card h3 a:hover{color:var(--accent);text-decoration:none}
+.card .meta{font-size:13px;color:var(--muted)}
+#noresults{color:var(--muted);display:none}
+
+article.post{max-width:720px;margin:0 auto;padding:34px 0 20px}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:12px}.crumbs a{color:var(--muted)}
+article.post h1{font-size:clamp(30px,4.4vw,42px);margin:6px 0 12px}
+.post-meta{font-size:14px;color:var(--muted);margin-bottom:16px;display:flex;gap:10px;flex-wrap:wrap}
+.share{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
+.share a,.share button{font:600 13px Inter;border:1px solid var(--line);background:var(--bg);color:var(--fg);padding:7px 12px;border-radius:8px;cursor:pointer}
+.share a:hover,.share button:hover{background:var(--soft);text-decoration:none}
+img.hero-img{width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);margin:6px 0 22px}
+.toc{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;margin:0 0 26px}
+.toc-title{font-weight:700;font-family:Inter;margin:0 0 8px;font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.toc ol{margin:0;padding-left:20px}.toc li{margin:4px 0}
+article.post h2{font-size:26px;margin:2em 0 .6em}article.post h3{font-size:20px;margin:1.6em 0 .5em}
+article.post p{margin:0 0 1.1em}
+.btn{display:inline-block;background:var(--amazon);color:#fff;font-weight:700;font-size:15px;padding:13px 20px;border-radius:10px;line-height:1.2}
+.btn:hover{filter:brightness(1.06);text-decoration:none}
+.prod{background:var(--soft);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.prod-featured{margin:24px 0;border-color:var(--amazon)}
+.prod-tag{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--amazon);margin:0 0 6px}
+.prod-name{font-weight:700;font-family:Inter;margin:0 0 10px}
+.prod-specs{margin:0 0 14px;padding-left:18px;font-size:14px;color:var(--muted)}
+.prod-specs li{margin:3px 0}
+.faq details{border:1px solid var(--line);border-radius:10px;padding:0 16px;margin:10px 0;background:var(--soft)}
+.faq summary{cursor:pointer;font-weight:600;padding:14px 0;font-family:Inter}
+.faq details[open] summary{border-bottom:1px solid var(--line)}
+.faq details p{margin:14px 0}
+.gear{margin:40px 0;padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--soft)}
+.gear h2{margin:0 0 16px;font-size:22px}.gear-list{display:flex;flex-direction:column;gap:12px}
+.disclosure{font-size:12.5px;color:var(--muted);margin-top:16px}
+.prevnext{display:flex;justify-content:space-between;gap:16px;margin:40px 0 8px;font-size:14px}
+.prevnext a{max-width:48%}
+.related{margin:44px 0 8px}.related h2{font-size:22px;margin:0 0 18px}
+
+#top{position:fixed;right:18px;bottom:18px;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--fg);font-size:18px;cursor:pointer;display:none;z-index:40;box-shadow:0 6px 20px -6px rgba(0,0,0,.3)}
+#top.show{display:block}
+
+.consent{position:fixed;left:16px;right:16px;bottom:16px;max-width:520px;margin:0 auto;background:var(--fg);color:var(--bg);padding:16px 18px;border-radius:12px;font-size:14px;box-shadow:0 10px 40px -8px rgba(0,0,0,.4);z-index:70}
+.consent button{margin-left:12px;background:var(--accent);color:#fff;border:0;padding:9px 16px;border-radius:8px;font-weight:700;cursor:pointer}
+.consent a{color:inherit;text-decoration:underline}
+
+footer.site{margin-top:60px;border-top:1px solid var(--line);background:var(--soft)}
+footer.site .wrap{padding:34px 20px;display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;font-size:14px;color:var(--muted)}
+footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap:wrap}
+@media(max-width:640px){.hero{padding:38px 0 26px}nav.main{gap:12px}.prevnext{flex-direction:column}}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<header class="site"><div class="wrap">
+<a class="brand" href="https://paxeko530.github.io/oficio-digital/">SoloStack</a>
+<nav class="main"><a href="https://paxeko530.github.io/oficio-digital/category-freelancer.html">Freelance Tools</a><a href="https://paxeko530.github.io/oficio-digital/category-escritorio.html">Home Office</a><a href="https://paxeko530.github.io/oficio-digital/category-ia.html">Local AI</a></nav>
+<span class="nav-spacer"></span>
+<nav class="main"><a href="https://paxeko530.github.io/oficio-digital/about.html">About</a></nav>
+<button id="theme" class="iconbtn" type="button" aria-label="Toggle dark mode" title="Toggle theme">&#9681;</button>
+</div></header>
+<main class="wrap" style="max-width:900px">
+<article class="post">
+<p class="crumbs"><a href="https://paxeko530.github.io/oficio-digital/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/oficio-digital/category-ia.html">Local AI</a></p>
+<span class="tag ia">Local AI</span>
+<h1>What hardware you need for local LLM inference in 2026</h1>
+<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>4 min read</span></div>
+<div class="share">
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fhardware-for-local-llm-inference-2026.html&media=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fimg%2Fhardware-for-local-llm-inference-2026-pin.png&description=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fhardware-for-local-llm-inference-2026.html&text=What%20hardware%20you%20need%20for%20local%20LLM%20inference%20in%202026" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Foficio-digital%2Fposts%2Fhardware-for-local-llm-inference-2026.html" target="_blank" rel="noopener">LinkedIn</a>
+<button id="copylink" type="button">Copy link</button>
+</div>
+<img class="hero-img" src="https://paxeko530.github.io/oficio-digital/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" fetchpriority="high">
+<div class="prod prod-featured">
+  <p class="prod-tag">Top pick</p>
+  <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
+  <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
+  <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
+</div>
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#cpus-and-cores">CPUs and Cores</a></li><li><a href="#gpus-and-memory">GPUs and Memory</a></li><li><a href="#memory-and-storage">Memory and Storage</a></li><li><a href="#networking-and-connectivity">Networking and Connectivity</a></li><li><a href="#power-supply-and-cooling">Power Supply and Cooling</a></li></ol></nav>
+<p>Local Large Language Model (LLM) inference in 2026 will rely on a blend of powerful hardware components designed to handle the computational demands of running sophisticated AI models efficiently and responsively. As the complexity and size of these models continue to grow, so too does the need for robust hardware infrastructure that can support real-time processing, lower latency, and high throughput. This article will guide you through the essential hardware requirements for running LLMs locally, including CPUs, GPUs, memory, storage, and networking components, ensuring your system is well-equipped to meet the evolving needs of AI-driven applications.</p>
+<h2 id="cpus-and-cores">CPUs and Cores</h2>
+<p>The central processing unit (CPU) serves as the brain of your system, managing tasks and coordinating data flow between other components. For LLM inference in 2026, multi-core processors with advanced architecture are crucial. Look for CPUs with at least 16 cores and support for advanced features like hyper-threading, which can significantly enhance multi-threaded performance. Modern CPUs, such as those from Intel&#39;s Xeon or AMD&#39;s EPYC series, offer excellent performance and scalability, making them ideal choices for running resource-intensive AI models. Additionally, CPUs with robust cache and high-speed memory interfaces will help in accelerating the inference process by reducing latency and increasing data throughput.</p>
+<h2 id="gpus-and-memory">GPUs and Memory</h2>
+<p>Graphics Processing Units (GPUs) are the backbone of modern AI and machine learning applications, providing the parallel processing power necessary for efficient model inference. In 2026, for local LLM inference, you should aim for GPUs with significant memory capacity and high computational throughput. GPUs from NVIDIA&#39;s A100 or H100 series, or AMD&#39;s MI300 series, are well-regarded for their advanced features, such as Tensor Cores and large memory capacities, which are essential for handling large model sizes and complex inference tasks. A minimum of 48GB of GPU memory is recommended for handling contemporary LLMs, with 80GB or more being preferable for future-proofing your setup. Ensure your GPU has sufficient PCIe bandwidth and supports the latest standards for optimal performance.</p>
+<h2 id="memory-and-storage">Memory and Storage</h2>
+<p>Memory and storage are critical for running LLMs locally, as they directly impact the model&#39;s performance and responsiveness. For memory, look for high-speed, low-latency RAM with at least 64GB for standard operations, scaling up to 256GB or more for handling larger models or multiple concurrent inference tasks. DDR5 RAM, with its faster speeds and higher bandwidth, is highly recommended for its efficiency and performance. Storage-wise, consider using NVMe SSDs with high sequential read and write speeds, providing quick access to large datasets and models. Having at least 1TB of NVMe storage is advisable, with 2TB or more being ideal for future scalability and redundancy.</p>
+<h2 id="networking-and-connectivity">Networking and Connectivity</h2>
+<p>Effective networking is crucial for transferring large datasets and model parameters efficiently, especially in distributed training scenarios. For local LLM inference, a high-speed network interface card (NIC) with 10Gbps or higher throughput is recommended, allowing for seamless data transfer and minimizing latency. Additionally, consider implementing RDMA (Remote Direct Memory Access) to further enhance performance by allowing direct data transfer between memory spaces without CPU intervention. For edge deployments, robust wireless connectivity solutions, such as 5G or Wi-Fi 6E, can provide reliable and fast data exchange capabilities.</p>
+<h2 id="power-supply-and-cooling">Power Supply and Cooling</h2>
+<p>Running high-performance hardware for extended periods requires reliable power supply and efficient cooling solutions. Ensure your system has a high-quality power supply unit (PSU) that can handle the power requirements of your components, with at least 850W being a good starting point for a well-equipped system. Additionally, invest in a robust cooling solution, such as liquid cooling or high-performance air cooling, to maintain optimal operating temperatures and prevent overheating, which can degrade performance and longevity.</p>
+
+<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>How much GPU memory do I need for local LLM inference?</summary><p>The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks.</p></details><details><summary>Can I use older hardware for LLM inference?</summary><p>While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency.</p></details><details><summary>What is the role of RDMA in LLM inference?</summary><p>RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications.</p></details></section>
+<h2 id="conclusion">Conclusion</h2>
+<p>Running local Large Language Model inference in 2026 requires a carefully selected blend of hardware components that can handle the computational demands of sophisticated AI models. By investing in powerful CPUs, high-performance GPUs, ample memory and storage, robust networking solutions, and reliable power supply and cooling systems, you can ensure your setup is well-equipped to deliver efficient and responsive AI-driven applications. As the field continues to evolve, staying informed about the latest hardware advancements will help you maintain a competitive edge in the AI landscape.</p>
+
+<section class="gear">
+  <h2>Recommended gear</h2>
+  <div class="gear-list"><div class="prod">
+  
+  <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
+  <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
+  <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
+</div></div>
+  <p class="disclosure">We pick gear that fits the job, not by commission &mdash;
+  <a href="https://paxeko530.github.io/oficio-digital/how-we-choose.html">how we choose</a>. As an Amazon Associate,
+  SoloStack earns from qualifying purchases at no extra cost to you.</p>
+</section>
+<nav class="prevnext"><a href="https://paxeko530.github.io/oficio-digital/posts/juggling-multiple-clients-without-missing-deadlines.html">&larr; Juggling multiple clients without missing deadlines</a><a href="https://paxeko530.github.io/oficio-digital/posts/freelancer-cash-flow-management.html">How to manage cash flow when you work for yourself &rarr;</a></nav>
+<section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="how to choose the right local llm for each task choose an llm local models parameters and context" data-cat="ia">
+<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/choosing-the-right-local-llm-for-the-task.html"><img src="https://paxeko530.github.io/oficio-digital/img/choosing-the-right-local-llm-for-the-task.png" width="1200" height="630" alt="How to choose the right local LLM for each task" loading="lazy"></a>
+<div class="body">
+<span class="tag ia">Local AI</span>
+<h3><a href="https://paxeko530.github.io/oficio-digital/posts/choosing-the-right-local-llm-for-the-task.html">How to choose the right local LLM for each task</a></h3>
+<p class="meta">2026-09-06</p>
+</div></article><article class="card" data-title="llm quantization explained without the jargon quantization gguf local models" data-cat="ia">
+<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html"><img src="https://paxeko530.github.io/oficio-digital/img/llm-quantization-explained.png" width="1200" height="630" alt="LLM quantization explained without the jargon" loading="lazy"></a>
+<div class="body">
+<span class="tag ia">Local AI</span>
+<h3><a href="https://paxeko530.github.io/oficio-digital/posts/llm-quantization-explained.html">LLM quantization explained without the jargon</a></h3>
+<p class="meta">2026-09-06</p>
+</div></article><article class="card" data-title="running a local llm with ollama: a beginner&#39;s guide ollama local llm open source models" data-cat="ia">
+<a class="cover" href="https://paxeko530.github.io/oficio-digital/posts/run-a-local-llm-with-ollama-beginners-guide.html"><img src="https://paxeko530.github.io/oficio-digital/img/run-a-local-llm-with-ollama-beginners-guide.png" width="1200" height="630" alt="Running a local LLM with Ollama: a beginner&#39;s guide" loading="lazy"></a>
+<div class="body">
+<span class="tag ia">Local AI</span>
+<h3><a href="https://paxeko530.github.io/oficio-digital/posts/run-a-local-llm-with-ollama-beginners-guide.html">Running a local LLM with Ollama: a beginner&#39;s guide</a></h3>
+<p class="meta">2026-09-06</p>
+</div></article></div></section>
+</article>
+</main>
+<button id="top" type="button" aria-label="Back to top">&uarr;</button>
+<div id="consent" class="consent" hidden>This site uses cookies for basic analytics and affiliate tracking. <a href="https://paxeko530.github.io/oficio-digital/disclosure.html">Learn more</a>.<button type="button">OK</button></div>
+<footer class="site"><div class="wrap">
+<span>&copy; 2026 SoloStack &middot; Practical guides for independent workers.</span>
+<nav><a href="https://paxeko530.github.io/oficio-digital/about.html">About</a><a href="https://paxeko530.github.io/oficio-digital/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/oficio-digital/contact.html">Contact</a><a href="https://paxeko530.github.io/oficio-digital/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/oficio-digital/feed.xml">RSS</a></nav>
+</div></footer>
+<script>
+(function(){
+var b=document.getElementById('progress');
+if(b)addEventListener('scroll',function(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight;b.style.width=(m>0?h.scrollTop/m*100:0)+'%';var t=document.getElementById('top');if(t)t.classList.toggle('show',h.scrollTop>600)},{passive:true});
+var tp=document.getElementById('top');if(tp)tp.onclick=function(){scrollTo({top:0,behavior:'smooth'})};
+var tg=document.getElementById('theme');if(tg)tg.onclick=function(){var d=document.documentElement,n=(d.dataset.theme==='dark')?'light':'dark';d.dataset.theme=n;try{localStorage.setItem('ss-theme',n)}catch(e){}};
+var c=document.getElementById('consent');if(c){try{if(localStorage.getItem('ss-consent'))c.remove();else{c.hidden=false;c.querySelector('button').onclick=function(){try{localStorage.setItem('ss-consent','1')}catch(e){}c.remove()}}}catch(e){c.hidden=false}}
+var s=document.getElementById('search'),chips=[].slice.call(document.querySelectorAll('.chip[data-cat]')),cards=[].slice.call(document.querySelectorAll('.card[data-title]')),nr=document.getElementById('noresults'),cat='';
+function apply(){var q=(s&&s.value||'').toLowerCase().trim(),n=0;cards.forEach(function(k){var ok=(!cat||k.dataset.cat===cat)&&(!q||k.dataset.title.indexOf(q)>-1);k.classList.toggle('hide',!ok);if(ok)n++});if(nr)nr.style.display=n?'none':'block'}
+if(s){var u=new URLSearchParams(location.search).get('q');if(u){s.value=u}s.addEventListener('input',apply)}
+chips.forEach(function(ch){ch.addEventListener('click',function(){var v=ch.dataset.cat;cat=(cat===v)?'':v;chips.forEach(function(x){x.setAttribute('aria-pressed',x.dataset.cat===cat)});apply()})});
+if(s||chips.length)apply();
+var cp=document.getElementById('copylink');if(cp)cp.onclick=function(){navigator.clipboard&&navigator.clipboard.writeText(location.href).then(function(){cp.textContent='Copied'})};
+})();
+</script>
+
+</body>
+</html>
