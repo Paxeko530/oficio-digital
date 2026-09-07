@@ -21,11 +21,12 @@
 <meta name="twitter:description" content="llm hardware, inference gpu, model ram">
 <meta name="twitter:image" content="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;700&display=swap">
+<link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"What hardware you need for local LLM inference in 2026","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html","image":"https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png","keywords":"llm hardware, inference gpu, model ram"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"What hardware you need for local LLM inference in 2026","item":"https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much GPU memory do I need for local LLM inference?","acceptedAnswer":{"@type":"Answer","text":"The amount of GPU memory required depends on the size and complexity of the LLMs you plan to run. As a general guideline, 48GB of GPU memory is suitable for most contemporary models, while 80GB or more is recommended for future-proofing and handling larger models or multiple concurrent tasks."}},{"@type":"Question","name":"Can I use older hardware for LLM inference?","acceptedAnswer":{"@type":"Answer","text":"While it is technically possible to run LLMs on older hardware, the performance and responsiveness may be severely limited. Modern LLMs demand significant computational resources, so using hardware from as recent as 2024 or later is advisable to ensure optimal performance and efficiency."}},{"@type":"Question","name":"What is the role of RDMA in LLM inference?","acceptedAnswer":{"@type":"Answer","text":"RDMA enables direct memory access between servers without CPU intervention, which is particularly useful in distributed training and inference scenarios. By reducing latency and improving data transfer speeds, RDMA can significantly enhance the overall performance of AI applications."}}]}]}</script>
 <style>
+@font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
 :root{
   --fg:#16181d;--muted:#5b6270;--bg:#fff;--soft:#f5f6f8;--line:#e6e8ec;
   --accent:#0b62ff;--amazon:#0f7a3d;--radius:14px;--wrap:1100px;
@@ -209,10 +210,10 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 </article>
 </main>
 <button id="top" type="button" aria-label="Back to top">&uarr;</button>
-<div id="consent" class="consent" hidden>This site uses cookies for basic analytics and affiliate tracking. <a href="https://paxeko530.github.io/disclosure.html">Learn more</a>.<button type="button">OK</button></div>
+<div id="consent" class="consent" hidden>This site sets no tracking or advertising cookies. It stores one small preference on your device (theme and this notice). Amazon may set its own cookies after you follow an affiliate link. <a href="https://paxeko530.github.io/privacy.html">Privacy</a>.<button type="button">OK</button></div>
 <footer class="site"><div class="wrap">
 <span>&copy; 2026 SoloStack &middot; Practical guides for independent workers.</span>
-<nav><a href="https://paxeko530.github.io/about.html">About</a><a href="https://paxeko530.github.io/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/contact.html">Contact</a><a href="https://paxeko530.github.io/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/feed.xml">RSS</a></nav>
+<nav><a href="https://paxeko530.github.io/about.html">About</a><a href="https://paxeko530.github.io/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/privacy.html">Privacy</a><a href="https://paxeko530.github.io/contact.html">Contact</a><a href="https://paxeko530.github.io/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/feed.xml">RSS</a></nav>
 </div></footer>
 <script>
 (function(){

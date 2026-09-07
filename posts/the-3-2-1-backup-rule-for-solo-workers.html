@@ -21,11 +21,12 @@
 <meta name="twitter:description" content="3-2-1 backup, data backup, disaster recovery">
 <meta name="twitter:image" content="https://paxeko530.github.io/img/the-3-2-1-backup-rule-for-solo-workers.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;700&display=swap">
+<link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"The 3-2-1 backup rule applied to solo workers","datePublished":"2026-09-06","dateModified":"2026-09-06","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/the-3-2-1-backup-rule-for-solo-workers.html","image":"https://paxeko530.github.io/img/the-3-2-1-backup-rule-for-solo-workers.png","keywords":"3-2-1 backup, data backup, disaster recovery"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Freelance Tools","item":"https://paxeko530.github.io/category-freelancer.html"},{"@type":"ListItem","position":3,"name":"The 3-2-1 backup rule applied to solo workers","item":"https://paxeko530.github.io/posts/the-3-2-1-backup-rule-for-solo-workers.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How often should I update my backups?","acceptedAnswer":{"@type":"Answer","text":"The frequency of your backups depends on how quickly your data changes and how much data you can afford to lose. For critical data that changes frequently, such as active client projects, daily backups are recommended. For less frequently changing data, weekly backups might be sufficient. Assess your data needs and adjust your backup schedule accordingly."}},{"@type":"Question","name":"What if I have limited storage space?","acceptedAnswer":{"@type":"Answer","text":"If you're concerned about storage space, consider implementing a tiered backup strategy. Store your most recent backups on your local devices and use cloud storage for older backups. Many cloud services offer versioning, which allows you to keep multiple versions of files without significantly increasing storage costs."}},{"@type":"Question","name":"How do I protect my backups from ransomware?","acceptedAnswer":{"@type":"Answer","text":"Ransomware can target your backups as well as your primary data. To protect your backups from ransomware, ensure that your backups are stored on separate devices from your primary data and that your backup devices are disconnected from your network when not in use. Additionally, regularly scan your backups with antivirus software to detect and remove any threats."}}]}]}</script>
 <style>
+@font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
 :root{
   --fg:#16181d;--muted:#5b6270;--bg:#fff;--soft:#f5f6f8;--line:#e6e8ec;
   --accent:#0b62ff;--amazon:#0f7a3d;--radius:14px;--wrap:1100px;
@@ -197,10 +198,10 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 </article>
 </main>
 <button id="top" type="button" aria-label="Back to top">&uarr;</button>
-<div id="consent" class="consent" hidden>This site uses cookies for basic analytics and affiliate tracking. <a href="https://paxeko530.github.io/disclosure.html">Learn more</a>.<button type="button">OK</button></div>
+<div id="consent" class="consent" hidden>This site sets no tracking or advertising cookies. It stores one small preference on your device (theme and this notice). Amazon may set its own cookies after you follow an affiliate link. <a href="https://paxeko530.github.io/privacy.html">Privacy</a>.<button type="button">OK</button></div>
 <footer class="site"><div class="wrap">
 <span>&copy; 2026 SoloStack &middot; Practical guides for independent workers.</span>
-<nav><a href="https://paxeko530.github.io/about.html">About</a><a href="https://paxeko530.github.io/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/contact.html">Contact</a><a href="https://paxeko530.github.io/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/feed.xml">RSS</a></nav>
+<nav><a href="https://paxeko530.github.io/about.html">About</a><a href="https://paxeko530.github.io/how-we-choose.html">How we choose</a><a href="https://paxeko530.github.io/privacy.html">Privacy</a><a href="https://paxeko530.github.io/contact.html">Contact</a><a href="https://paxeko530.github.io/disclosure.html">Affiliate disclosure</a><a href="https://paxeko530.github.io/feed.xml">RSS</a></nav>
 </div></footer>
 <script>
 (function(){
