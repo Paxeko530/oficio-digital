@@ -8,8 +8,6 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 <a href="https://paxeko530.github.io/"><img alt="Visit the site" src="https://img.shields.io/badge/Visit_the_site-0b62ff?style=for-the-badge&logo=githubpages&logoColor=white"></a>
 &nbsp;
 <a href="https://paxeko530.github.io/posts/choosing-a-monitor-arm.html"><img alt="Read a guide" src="https://img.shields.io/badge/Read_a_guide-16181d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
-&nbsp;
-<a href="https://paxeko530.github.io/feed.xml"><img alt="RSS" src="https://img.shields.io/badge/RSS-f26522?style=for-the-badge&logo=rss&logoColor=white"></a>
 </p>
 
 ---
@@ -42,10 +40,8 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 ## What to expect
 
 - Every guide opens with an on-page outline and closes with an FAQ.
-- Some guides recommend gear; when they do, the pick is chosen for fit rather than
-  commission ([how we choose](https://paxeko530.github.io/how-we-choose.html)) and the page carries an
-  [affiliate disclosure](https://paxeko530.github.io/disclosure.html).
-- Guides without a product recommendation stay product-free.
+- Some guides recommend gear; the pick is chosen for fit rather than commission, and
+  the page says so. Guides without a recommendation stay product-free.
 
 ---
 
