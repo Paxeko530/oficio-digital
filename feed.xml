@@ -4,7 +4,34 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 07 Sep 2026 21:59:16 GMT</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 05:20:05 GMT</lastBuildDate>
+  <item>
+    <title>Cable management for a tidy home office desk</title>
+    <link>https://paxeko530.github.io/posts/cable-management-home-office.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/cable-management-home-office.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Home Office</category>
+    <description>A wellorganized home office desk is not just about having a clean workspace but also about ensuring that all your equipment is connected and functioning smoothly. One of the most common challenges in setting up a home office is managing the cables and wires that come with technol</description>
+    <enclosure url="https://paxeko530.github.io/img/cable-management-home-office.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Storage for local AI: why model files need a fast NVMe drive</title>
+    <link>https://paxeko530.github.io/posts/storage-for-local-ai-models.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/storage-for-local-ai-models.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>As the use of local AI models becomes increasingly prevalent, the importance of proper storage solutions cannot be overstated. Efficient and fast storage is crucial for the performance of AI applications, particularly when dealing with large model files. One solution that stands </description>
+    <enclosure url="https://paxeko530.github.io/img/storage-for-local-ai-models.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Tracking billable hours accurately when you work solo</title>
+    <link>https://paxeko530.github.io/posts/tracking-billable-hours-solo.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/tracking-billable-hours-solo.html</guid>
+    <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>Tracking billable hours accurately is crucial for any solo professional, whether you&#39;re a freelancer, consultant, or selfemployed. Accurate time tracking helps you manage your workload, set fair rates, and maintain a healthy worklife balance. However, keeping track of your time c</description>
+    <enclosure url="https://paxeko530.github.io/img/tracking-billable-hours-solo.png" type="image/png"/>
+  </item>
   <item>
     <title>How to choose a NAS for home backups and file storage</title>
     <link>https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html</link>

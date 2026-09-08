@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Adding fast SSD storage to a home server — SoloStack</title>
-<meta name="description" content="home server SSD, NVMe storage, self-hosting">
-<link rel="canonical" href="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html">
+<title>Storage for local AI: why model files need a fast NVMe drive — SoloStack</title>
+<meta name="description" content="local AI storage, NVMe SSD, model files">
+<link rel="canonical" href="https://paxeko530.github.io/posts/storage-for-local-ai-models.html">
 <link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/feed.xml">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="SoloStack">
-<meta property="og:title" content="Adding fast SSD storage to a home server — SoloStack">
-<meta property="og:description" content="home server SSD, NVMe storage, self-hosting">
-<meta property="og:url" content="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html">
-<meta property="og:image" content="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png">
-<meta property="og:image:alt" content="Adding fast SSD storage to a home server">
-<meta property="article:published_time" content="2026-09-07">
-<meta property="article:modified_time" content="2026-09-07">
+<meta property="og:title" content="Storage for local AI: why model files need a fast NVMe drive — SoloStack">
+<meta property="og:description" content="local AI storage, NVMe SSD, model files">
+<meta property="og:url" content="https://paxeko530.github.io/posts/storage-for-local-ai-models.html">
+<meta property="og:image" content="https://paxeko530.github.io/img/storage-for-local-ai-models.png">
+<meta property="og:image:alt" content="Storage for local AI: why model files need a fast NVMe drive">
+<meta property="article:published_time" content="2026-09-08">
+<meta property="article:modified_time" content="2026-09-08">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Adding fast SSD storage to a home server — SoloStack">
-<meta name="twitter:description" content="home server SSD, NVMe storage, self-hosting">
-<meta name="twitter:image" content="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png">
+<meta name="twitter:title" content="Storage for local AI: why model files need a fast NVMe drive — SoloStack">
+<meta name="twitter:description" content="local AI storage, NVMe SSD, model files">
+<meta name="twitter:image" content="https://paxeko530.github.io/img/storage-for-local-ai-models.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Adding fast SSD storage to a home server","datePublished":"2026-09-07","dateModified":"2026-09-07","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html","image":"https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png","keywords":"home server SSD, NVMe storage, self-hosting"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"Adding fast SSD storage to a home server","item":"https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Q: Can I use multiple NVMe SSDs in my server?","acceptedAnswer":{"@type":"Answer","text":"A: Yes, you can use multiple NVMe SSDs in your server. Most modern motherboards support multiple NVMe slots, allowing you to add additional SSDs to expand your storage capacity or to create RAID configurations for redundancy and performance."}},{"@type":"Question","name":"Q: How do I back up data on my NVMe SSD?","acceptedAnswer":{"@type":"Answer","text":"A: Backing up data on your NVMe SSD is crucial, especially given the speed and capacity of these drives. You can use cloud-based backup solutions, external hard drives, or network-attached storage (NAS) devices to create backups. Additionally, many operating systems offer built-in backup utilities that can be configured to automatically backup your data."}},{"@type":"Question","name":"Q: What is the lifespan of an NVMe SSD?","acceptedAnswer":{"@type":"Answer","text":"A: The lifespan of an NVMe SSD can vary based on usage patterns and the quality of the drive. Generally, NVMe SSDs have a high endurance rating, with many offering up to 1 DWPD (Drive Writes Per Day) for consumer-grade drives and higher for enterprise-grade drives. Regular monitoring of the SSD's health and performance can help you determine when it might be time to replace the drive."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Storage for local AI: why model files need a fast NVMe drive","datePublished":"2026-09-08","dateModified":"2026-09-08","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/storage-for-local-ai-models.html","image":"https://paxeko530.github.io/img/storage-for-local-ai-models.png","keywords":"local AI storage, NVMe SSD, model files"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"Storage for local AI: why model files need a fast NVMe drive","item":"https://paxeko530.github.io/posts/storage-for-local-ai-models.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What are the typical use cases for NVMe SSDs in AI?","acceptedAnswer":{"@type":"Answer","text":"NVMe SSDs are particularly well-suited for use cases involving large datasets and complex computations, such as AI model training and inference. They are ideal for environments where speed and reliability are critical, such as in machine learning and deep learning applications."}},{"@type":"Question","name":"How do NVMe SSDs compare to traditional HDDs and SATA SSDs?","acceptedAnswer":{"@type":"Answer","text":"NVMe SSDs offer superior performance compared to traditional HDDs and SATA SSDs. They provide faster read and write speeds, reduced latency, and higher reliability. While they may be more expensive, the performance benefits often justify the cost, especially in high-performance computing scenarios."}},{"@type":"Question","name":"Are there any specific brands or models of NVMe SSDs you recommend?","acceptedAnswer":{"@type":"Answer","text":"There are many reputable brands that manufacture high-quality NVMe SSDs, such as Samsung, Crucial, and Kingston. When choosing a model, consider factors like capacity, speed, and compatibility with your system. It's also important to read reviews and consult with experts to ensure you select the right product for your needs."}}]}]}</script>
 <style>
 @font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
 @font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
@@ -143,75 +143,53 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <article class="post">
 <p class="crumbs"><a href="https://paxeko530.github.io/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></p>
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h1>Adding fast SSD storage to a home server</h1>
-<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>6 min read</span></div>
+<h1>Storage for local AI: why model files need a fast NVMe drive</h1>
+<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>5 min read</span></div>
 <div class="share">
-<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fssd-storage-for-a-home-server-pin.png&description=Adding%20fast%20SSD%20storage%20to%20a%20home%20server" target="_blank" rel="noopener">Save to Pinterest</a>
-<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html&text=Adding%20fast%20SSD%20storage%20to%20a%20home%20server" target="_blank" rel="noopener">Post on X</a>
-<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fssd-storage-for-a-home-server.html" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fstorage-for-local-ai-models.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fstorage-for-local-ai-models-pin.png&description=Storage%20for%20local%20AI%3A%20why%20model%20files%20need%20a%20fast%20NVMe%20drive" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fstorage-for-local-ai-models.html&text=Storage%20for%20local%20AI%3A%20why%20model%20files%20need%20a%20fast%20NVMe%20drive" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fstorage-for-local-ai-models.html" target="_blank" rel="noopener">LinkedIn</a>
 <button id="copylink" type="button">Copy link</button>
 </div>
-<img class="hero-img" src="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png" width="1200" height="630" alt="Adding fast SSD storage to a home server" fetchpriority="high">
+<img class="hero-img" src="https://paxeko530.github.io/img/storage-for-local-ai-models.png" width="1200" height="630" alt="Storage for local AI: why model files need a fast NVMe drive" fetchpriority="high">
 <div class="prod prod-featured">
   <p class="prod-tag">Top pick</p>
   <p class="prod-name">Lexar NM790 2TB NVMe SSD (M.2 PCIe Gen4, up to 7400 MB/s)</p>
   <ul class="prod-specs"><li>2TB capacity</li><li>M.2 2280, PCIe Gen4 x4 NVMe</li><li>Up to 7400/6500 MB/s read/write</li><li>DRAM-less, HMB design</li></ul>
   <a class="btn" href="https://www.amazon.com/dp/B0DC6HZ3TW/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
 </div>
-<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#choosing-the-right-ssd-for-your-home-server">Choosing the Right SSD for Your Home Server</a></li><li><a href="#preparing-your-home-server-for-nvme-ssd-installation">Preparing Your Home Server for NVMe SSD Installation</a></li><li><a href="#installing-the-nvme-ssd">Installing the NVMe SSD</a></li><li><a href="#configuring-your-home-server-for-nvme-ssd">Configuring Your Home Server for NVMe SSD</a></li><li><a href="#optimizing-your-home-server-with-nvme-ssd">Optimizing Your Home Server with NVMe SSD</a></li></ol></nav>
-<p>Adding fast SSD storage to a home server is a great way to boost performance and expand your storage capacity, especially if you&#39;re dealing with large files or running resource-intensive applications. Whether you&#39;re a gamer, a developer, or someone who simply wants to centralize and back up all their data, upgrading to SSD storage can make a significant difference. In this article, we&#39;ll walk you through the process of selecting and installing NVMe SSDs, which offer superior performance compared to traditional SATA SSDs. We&#39;ll cover everything from understanding the basics of SSD technology to step-by-step installation instructions and optimizing your system for maximum performance.</p>
-<h2 id="choosing-the-right-ssd-for-your-home-server">Choosing the Right SSD for Your Home Server</h2>
-<p>When it comes to selecting an SSD for your home server, there are several factors to consider. First and foremost, you need to decide between SATA SSDs and NVMe SSDs. NVMe (Non-Volatile Memory Express) SSDs are designed to take full advantage of the PCIe interface, which allows them to achieve much higher read and write speeds compared to SATA SSDs. NVMe SSDs are ideal for applications that require fast data access, such as gaming, video editing, and database management.</p>
-<p>Another important consideration is the capacity of the SSD. If you&#39;re using your home server for backup and archival purposes, you may want to opt for a larger capacity SSD. However, if you&#39;re focused on performance, a smaller capacity SSD can be sufficient, as you can always add more storage later if needed.</p>
-<p>Finally, you&#39;ll want to ensure that your server&#39;s motherboard supports NVMe SSDs. Most modern motherboards come equipped with NVMe slots, but it&#39;s always a good idea to double-check the specifications to avoid compatibility issues.</p>
-<h2 id="preparing-your-home-server-for-nvme-ssd-installation">Preparing Your Home Server for NVMe SSD Installation</h2>
-<p>Before you start installing your NVMe SSD, there are a few preparatory steps you should take to ensure a smooth process. First, make sure your server is powered off and unplugged. This is crucial for safety reasons and to prevent any accidental data loss. Next, gather the necessary tools and components:</p>
-<ul>
-<li>A Phillips-head screwdriver</li>
-<li>Anti-static wrist strap (recommended)</li>
-<li>NVMe SSD</li>
-<li>Thermal paste (optional, but recommended for optimal performance)</li>
-<li>Backup of your data (always a good idea to have a backup before making hardware changes)</li>
-</ul>
-<p>Once you have everything ready, open your server case and locate the NVMe slot on the motherboard. NVMe slots are usually located near the CPU, and they look like small, thin slots with a few pins exposed.</p>
-<h2 id="installing-the-nvme-ssd">Installing the NVMe SSD</h2>
-<p>Now that you have everything prepared, it&#39;s time to install the NVMe SSD. Here are the steps to follow:</p>
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#understanding-nvme-ssds">Understanding NVMe SSDs</a></li><li><a href="#advantages-of-nvme-ssds-for-ai-model-files">Advantages of NVMe SSDs for AI Model Files</a></li><li><a href="#impact-on-ai-performance">Impact on AI Performance</a></li><li><a href="#practical-considerations-and-challenges">Practical Considerations and Challenges</a></li><li><a href="#integrating-nvme-ssds-into-your-workflow">Integrating NVMe SSDs into Your Workflow</a></li></ol></nav>
+<p>As the use of local AI models becomes increasingly prevalent, the importance of proper storage solutions cannot be overstated. Efficient and fast storage is crucial for the performance of AI applications, particularly when dealing with large model files. One solution that stands out is the use of NVMe SSDs, which offer significant advantages over traditional storage methods in terms of speed, reliability, and capacity. This article explores why NVMe SSDs are the preferred choice for storing AI model files on local machines and how they enhance the overall user experience.</p>
+<h2 id="understanding-nvme-ssds">Understanding NVMe SSDs</h2>
+<p>NVMe, or Non-Volatile Memory Express, is a high-speed interface designed specifically for SSDs. Unlike traditional SATA SSDs, NVMe SSDs utilize the PCIe interface, allowing for direct communication with the CPU. This results in drastically reduced latency and increased data transfer rates. NVMe SSDs are capable of delivering read and write speeds that far surpass those of conventional storage solutions, making them an ideal choice for applications that require high performance, such as AI model training and inference.</p>
+<h2 id="advantages-of-nvme-ssds-for-ai-model-files">Advantages of NVMe SSDs for AI Model Files</h2>
+<p>When working with AI models, speed is of the utmost importance. Training and inference processes often involve large datasets and complex computations, which can be significantly slowed down by subpar storage solutions. NVMe SSDs offer several key advantages that make them an attractive option for storing AI model files:</p>
 <ol>
-<li><p><strong>Remove the NVMe SSD from its packaging</strong> and inspect the SSD for any physical damage. Make sure the SSD is compatible with your motherboard and that the pins on the SSD align with the slots on the motherboard.</p>
-</li>
-<li><p><strong>Place the NVMe SSD into the slot</strong>. Use your fingers to gently press the SSD into the slot until it clicks into place. Ensure that the SSD is fully seated and that the pins are not bent.</p>
-</li>
-<li><p><strong>Secure the SSD</strong>. Most NVMe SSDs come with small screws that secure them to the motherboard. Use the screwdriver to screw the SSD into place. Make sure the screws are tight to prevent the SSD from coming loose during operation.</p>
-</li>
-<li><p><strong>Apply thermal paste</strong> (if applicable). If your SSD is running hot and you want to optimize its performance, you can apply a small amount of thermal paste to the back of the SSD before installing it. This helps dissipate heat more effectively and can improve the SSD&#39;s longevity.</p>
-</li>
-<li><p><strong>Close the server case</strong>. Once the SSD is installed and secured, close the server case and plug in the power supply.</p>
-</li>
+<li><strong>Speed</strong>: NVMe SSDs can achieve read speeds of up to 7000 MB/s and write speeds of up to 6500 MB/s, depending on the model. This speed translates to faster loading times for AI models, quicker data retrieval during training, and reduced overall processing times.</li>
+<li><strong>Reliability</strong>: NVMe SSDs are built with advanced error correction mechanisms and support features like TRIM, which helps maintain performance over time. Additionally, their lack of moving parts makes them more resistant to physical damage compared to traditional HDDs.</li>
+<li><strong>Capacity</strong>: NVMe SSDs are available in various sizes, ranging from a few hundred gigabytes to several terabytes. This range allows users to choose a storage solution that fits their specific needs without sacrificing performance.</li>
 </ol>
-<h2 id="configuring-your-home-server-for-nvme-ssd">Configuring Your Home Server for NVMe SSD</h2>
-<p>After installing the NVMe SSD, you&#39;ll need to configure your home server to recognize and use the new storage device. Here&#39;s how you can do it:</p>
+<h2 id="impact-on-ai-performance">Impact on AI Performance</h2>
+<p>The performance of AI models is heavily dependent on the speed at which data can be accessed. When training or running an AI model, the system needs to read and write data to and from storage continuously. NVMe SSDs provide the necessary speed to keep up with these demands, which is critical for maintaining high performance. For example, in a machine learning scenario, faster data access can lead to quicker iterations during the training process, allowing for more efficient experimentation and faster model development cycles.</p>
+<h2 id="practical-considerations-and-challenges">Practical Considerations and Challenges</h2>
+<p>While NVMe SSDs offer numerous benefits, there are also practical considerations and challenges to be aware of when implementing them for AI storage:</p>
 <ol>
-<li><p><strong>Power on your server</strong> and wait for the operating system to boot up. If your server is configured to automatically detect new hardware, the SSD should be recognized and mounted automatically.</p>
-</li>
-<li><p><strong>Access the BIOS/UEFI settings</strong>. If the SSD is not recognized automatically, you may need to enter the BIOS/UEFI settings to configure the system to recognize the new storage device. Look for the &quot;Storage&quot; or &quot;SATA Configuration&quot; section and ensure that the NVMe SSD is enabled and set to the appropriate mode (AHCI or RAID, depending on your configuration).</p>
-</li>
-<li><p><strong>Partition and format the SSD</strong>. Once the SSD is recognized, you can partition and format it using the operating system&#39;s disk management tools. In Windows, you can use the &quot;Disk Management&quot; utility, while in Linux, you can use tools like <code>fdisk</code> or <code>gparted</code>.</p>
-</li>
-<li><p><strong>Install an operating system or clone your existing system</strong>. If you&#39;re setting up a new server or want to start fresh, you can install an operating system directly onto the NVMe SSD. Alternatively, you can clone your existing system to the new SSD using cloning software like Clonezilla or Macrium Reflect.</p>
-</li>
+<li><strong>Cost</strong>: NVMe SSDs are generally more expensive than traditional storage solutions, such as HDDs or SATA SSDs. However, the performance gains often justify the cost, especially in scenarios where time is a critical factor.</li>
+<li><strong>Compatibility</strong>: Not all systems support NVMe SSDs out of the box. Users may need to ensure that their hardware is compatible or consider upgrading their system components to take full advantage of NVMe technology.</li>
+<li><strong>Data Management</strong>: With faster read and write speeds, data management becomes even more critical. Users should implement robust backup and recovery strategies to protect their valuable AI models and datasets.</li>
 </ol>
-<h2 id="optimizing-your-home-server-with-nvme-ssd">Optimizing Your Home Server with NVMe SSD</h2>
-<p>To get the most out of your NVMe SSD, there are several optimization techniques you can employ:</p>
-<ul>
-<li><strong>Disable unnecessary startup programs</strong>: This can help reduce the workload on the SSD during boot-up and improve overall performance.</li>
-<li><strong>Use SSD-friendly file systems</strong>: File systems like NTFS (Windows) and ext4 (Linux) are optimized for SSDs and can help improve read/write speeds.</li>
-<li><strong>Enable TRIM</strong>: TRIM is a feature that helps maintain the performance of SSDs by allowing the operating system to inform the SSD which blocks of data are no longer in use and can be wiped internally. You can enable TRIM in the operating system&#39;s settings or through the BIOS/UEFI settings.</li>
-<li><strong>Regularly monitor SSD health</strong>: Use tools like CrystalDiskInfo (Windows) or <code>smartmontools</code> (Linux) to monitor the health and status of your SSD. This can help you identify potential issues before they become critical.</li>
-</ul>
+<h2 id="integrating-nvme-ssds-into-your-workflow">Integrating NVMe SSDs into Your Workflow</h2>
+<p>Integrating NVMe SSDs into your AI workflow can be a straightforward process, although it does require some planning and consideration. Here are some steps to help you get started:</p>
+<ol>
+<li><strong>Assess Your Needs</strong>: Determine the specific requirements of your AI models in terms of storage capacity and performance. This will help you choose the right NVMe SSD for your needs.</li>
+<li><strong>Upgrade Your System</strong>: Ensure that your hardware supports NVMe SSDs. If necessary, upgrade your motherboard or other components to accommodate this technology.</li>
+<li><strong>Backup and Recovery</strong>: Implement a reliable data management plan that includes regular backups and recovery procedures to safeguard your AI models and datasets.</li>
+<li><strong>Monitor Performance</strong>: Once your NVMe SSD is in place, monitor its performance to ensure that it meets your expectations. Tools like benchmarking software can help you assess the speed and reliability of your storage solution.</li>
+</ol>
 
-<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>Q: Can I use multiple NVMe SSDs in my server?</summary><p>A: Yes, you can use multiple NVMe SSDs in your server. Most modern motherboards support multiple NVMe slots, allowing you to add additional SSDs to expand your storage capacity or to create RAID configurations for redundancy and performance.</p></details><details><summary>Q: How do I back up data on my NVMe SSD?</summary><p>A: Backing up data on your NVMe SSD is crucial, especially given the speed and capacity of these drives. You can use cloud-based backup solutions, external hard drives, or network-attached storage (NAS) devices to create backups. Additionally, many operating systems offer built-in backup utilities that can be configured to automatically backup your data.</p></details><details><summary>Q: What is the lifespan of an NVMe SSD?</summary><p>A: The lifespan of an NVMe SSD can vary based on usage patterns and the quality of the drive. Generally, NVMe SSDs have a high endurance rating, with many offering up to 1 DWPD (Drive Writes Per Day) for consumer-grade drives and higher for enterprise-grade drives. Regular monitoring of the SSD&#39;s health and performance can help you determine when it might be time to replace the drive.</p></details></section>
+<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>What are the typical use cases for NVMe SSDs in AI?</summary><p>NVMe SSDs are particularly well-suited for use cases involving large datasets and complex computations, such as AI model training and inference. They are ideal for environments where speed and reliability are critical, such as in machine learning and deep learning applications.</p></details><details><summary>How do NVMe SSDs compare to traditional HDDs and SATA SSDs?</summary><p>NVMe SSDs offer superior performance compared to traditional HDDs and SATA SSDs. They provide faster read and write speeds, reduced latency, and higher reliability. While they may be more expensive, the performance benefits often justify the cost, especially in high-performance computing scenarios.</p></details><details><summary>Are there any specific brands or models of NVMe SSDs you recommend?</summary><p>There are many reputable brands that manufacture high-quality NVMe SSDs, such as Samsung, Crucial, and Kingston. When choosing a model, consider factors like capacity, speed, and compatibility with your system. It&#39;s also important to read reviews and consult with experts to ensure you select the right product for your needs.</p></details></section>
 <h2 id="conclusion">Conclusion</h2>
-<p>Adding an NVMe SSD to your home server is a straightforward process that can significantly enhance the performance and storage capacity of your system. By following the steps outlined in this article, you can ensure that your server is optimized for speed and reliability. Whether you&#39;re a gamer, a developer, or someone who simply wants to centralize and back up all their data, upgrading to an NVMe SSD is a smart investment that can pay off in improved performance and peace of mind.</p>
+<p>In conclusion, the use of NVMe SSDs for storing AI model files on local machines is a strategic choice that can significantly enhance performance and efficiency. By leveraging the speed, reliability, and capacity of NVMe SSDs, users can ensure that their AI applications run smoothly and efficiently, leading to faster development cycles and better overall performance. While there are some challenges to consider, the benefits of using NVMe SSDs in AI storage solutions are clear and compelling.</p>
 
 <section class="gear">
   <h2>Recommended gear</h2>
@@ -225,14 +203,8 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
   <a href="https://paxeko530.github.io/how-we-choose.html">how we choose</a>. As an Amazon Associate,
   SoloStack earns from qualifying purchases at no extra cost to you.</p>
 </section>
-<nav class="prevnext"><a href="https://paxeko530.github.io/posts/ups-for-a-home-server.html">&larr; Do you need a UPS for your home server?</a><a href="https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html">Raspberry Pi versus a mini PC for self-hosting &rarr;</a></nav>
-<section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="storage for local ai: why model files need a fast nvme drive local ai storage nvme ssd model files" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/storage-for-local-ai-models.html"><img src="https://paxeko530.github.io/img/storage-for-local-ai-models.png" width="1200" height="630" alt="Storage for local AI: why model files need a fast NVMe drive" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/storage-for-local-ai-models.html">Storage for local AI: why model files need a fast NVMe drive</a></h3>
-<p class="meta">2026-09-08</p>
-</div></article><article class="card" data-title="how to choose a nas for home backups and file storage home nas network storage backup server" data-cat="ia">
+<nav class="prevnext"><a href="https://paxeko530.github.io/posts/tracking-billable-hours-solo.html">&larr; Tracking billable hours accurately when you work solo</a><a href="https://paxeko530.github.io/posts/cable-management-home-office.html">Cable management for a tidy home office desk &rarr;</a></nav>
+<section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="how to choose a nas for home backups and file storage home nas network storage backup server" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html"><img src="https://paxeko530.github.io/img/choose-a-nas-for-home-backups.png" width="1200" height="630" alt="How to choose a NAS for home backups and file storage" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
@@ -243,6 +215,12 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html">A beginner guide to Docker for self-hosting</a></h3>
+<p class="meta">2026-09-07</p>
+</div></article><article class="card" data-title="using a local llm as a coding assistant in your editor local llm coding assistant offline ai" data-cat="ia">
+<a class="cover" href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html"><img src="https://paxeko530.github.io/img/local-llm-coding-assistant.png" width="1200" height="630" alt="Using a local LLM as a coding assistant in your editor" loading="lazy"></a>
+<div class="body">
+<span class="tag ia">Self-Hosting &amp; Local AI</span>
+<h3><a href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html">Using a local LLM as a coding assistant in your editor</a></h3>
 <p class="meta">2026-09-07</p>
 </div></article></div></section>
 </article>
