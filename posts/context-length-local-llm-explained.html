@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Self-Hosting &amp; Local AI — SoloStack</title>
-<meta name="description" content="Guides about self-hosting &amp; local ai for independent workers.">
-<link rel="canonical" href="https://paxeko530.github.io/category-ia.html">
+<title>What context length means when running a local LLM — SoloStack</title>
+<meta name="description" content="Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the…">
+<link rel="canonical" href="https://paxeko530.github.io/posts/context-length-local-llm-explained.html">
 <link rel="alternate" type="application/rss+xml" title="SoloStack" href="https://paxeko530.github.io/feed.xml">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="SoloStack">
-<meta property="og:title" content="Self-Hosting &amp; Local AI — SoloStack">
-<meta property="og:description" content="Guides about self-hosting &amp; local ai for independent workers.">
-<meta property="og:url" content="https://paxeko530.github.io/category-ia.html">
-
-
-
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Self-Hosting &amp; Local AI — SoloStack">
-<meta name="twitter:description" content="Guides about self-hosting &amp; local ai for independent workers.">
-
+<meta property="og:title" content="What context length means when running a local LLM — SoloStack">
+<meta property="og:description" content="Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the…">
+<meta property="og:url" content="https://paxeko530.github.io/posts/context-length-local-llm-explained.html">
+<meta property="og:image" content="https://paxeko530.github.io/img/context-length-local-llm-explained.png">
+<meta property="og:image:alt" content="What context length means when running a local LLM">
+<meta property="article:published_time" content="2026-09-11">
+<meta property="article:modified_time" content="2026-09-11">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What context length means when running a local LLM — SoloStack">
+<meta name="twitter:description" content="Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the…">
+<meta name="twitter:image" content="https://paxeko530.github.io/img/context-length-local-llm-explained.png">
 <link rel="icon" href="https://paxeko530.github.io/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="https://paxeko530.github.io/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ss-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"What context length means when running a local LLM","description":"Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the…","datePublished":"2026-09-11","dateModified":"2026-09-11","author":{"@type":"Organization","name":"SoloStack Editorial"},"publisher":{"@type":"Organization","name":"SoloStack"},"mainEntityOfPage":"https://paxeko530.github.io/posts/context-length-local-llm-explained.html","image":"https://paxeko530.github.io/img/context-length-local-llm-explained.png","keywords":"context length, local LLM, tokens"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SoloStack","item":"https://paxeko530.github.io/"},{"@type":"ListItem","position":2,"name":"Self-Hosting & Local AI","item":"https://paxeko530.github.io/category-ia.html"},{"@type":"ListItem","position":3,"name":"What context length means when running a local LLM","item":"https://paxeko530.github.io/posts/context-length-local-llm-explained.html"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I determine the optimal context length for my local LLM?","acceptedAnswer":{"@type":"Answer","text":"The optimal context length depends on the specific use case and available resources. Start with a moderate context length and gradually increase it while monitoring performance and resource usage. This iterative approach can help you find the best balance."}},{"@type":"Question","name":"Can I adjust the context length during runtime?","acceptedAnswer":{"@type":"Answer","text":"Adjusting the context length during runtime is generally not recommended as it can disrupt the model's operation. Instead, experiment with different context lengths during testing phases to determine the most effective settings."}},{"@type":"Question","name":"What happens if I exceed the maximum context length?","acceptedAnswer":{"@type":"Answer","text":"If you exceed the maximum context length, the model may not be able to process the input correctly, leading to poor performance or errors. It is important to manage input lengths to fit within the specified context length."}}]}]}</script>
 <style>
 @font-face{font-family:Inter;src:url(https://paxeko530.github.io/fonts/inter.woff2) format('woff2');font-weight:100 900;font-display:swap}
 @font-face{font-family:Fraunces;src:url(https://paxeko530.github.io/fonts/fraunces.woff2) format('woff2');font-weight:100 900;font-display:swap}
@@ -142,105 +142,80 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <nav class="main"><a href="https://paxeko530.github.io/about.html">About</a></nav>
 <button id="theme" class="iconbtn" type="button" aria-label="Toggle dark mode" title="Toggle theme">&#9681;</button>
 </div></header>
-<main class="wrap">
-<section class="hero"><h1>Self-Hosting &amp; Local AI</h1><p>16 guides.</p></section>
-<div class="grid"><article class="card" data-title="setting up automated backups for a mini pc home server automated backups home server nas backup target" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html"><img src="https://paxeko530.github.io/img/automated-backups-for-a-mini-pc-home-server.png" width="1200" height="630" alt="Setting up automated backups for a mini PC home server" loading="lazy"></a>
-<div class="body">
+<main class="wrap" style="max-width:900px">
+<article class="post">
+<p class="crumbs"><a href="https://paxeko530.github.io/">SoloStack</a> &rsaquo; <a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></p>
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html">Setting up automated backups for a mini PC home server</a></h3>
-<p class="meta">2026-09-11</p>
-</div></article><article class="card" data-title="what context length means when running a local llm context length local llm tokens" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/context-length-local-llm-explained.html"><img src="https://paxeko530.github.io/img/context-length-local-llm-explained.png" width="1200" height="630" alt="What context length means when running a local LLM" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/context-length-local-llm-explained.html">What context length means when running a local LLM</a></h3>
-<p class="meta">2026-09-11</p>
-</div></article><article class="card" data-title="practical ways to reduce fan noise from a home server fan noise quiet home server mini pc cooling" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html"><img src="https://paxeko530.github.io/img/reducing-fan-noise-home-server.png" width="1200" height="630" alt="Practical ways to reduce fan noise from a home server" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html">Practical ways to reduce fan noise from a home server</a></h3>
-<p class="meta">2026-09-11</p>
-</div></article><article class="card" data-title="keeping your data private with a local llm data privacy local llm offline ai" data-cat="ia">
+<h1>What context length means when running a local LLM</h1>
+<div class="post-meta"><span>Updated September 2026</span><span>&middot;</span><span>5 min read</span></div>
+<div class="share">
+<a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fcontext-length-local-llm-explained.html&media=https%3A%2F%2Fpaxeko530.github.io%2Fimg%2Fcontext-length-local-llm-explained-pin.png&description=What%20context%20length%20means%20when%20running%20a%20local%20LLM" target="_blank" rel="noopener">Save to Pinterest</a>
+<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fcontext-length-local-llm-explained.html&text=What%20context%20length%20means%20when%20running%20a%20local%20LLM" target="_blank" rel="noopener">Post on X</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fpaxeko530.github.io%2Fposts%2Fcontext-length-local-llm-explained.html" target="_blank" rel="noopener">LinkedIn</a>
+<button id="copylink" type="button">Copy link</button>
+</div>
+<img class="hero-img" src="https://paxeko530.github.io/img/context-length-local-llm-explained.png" width="1200" height="630" alt="What context length means when running a local LLM" fetchpriority="high">
+
+<nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ol><li><a href="#what-is-context-length">What is Context Length?</a></li><li><a href="#why-is-context-length-important-for-local-llms">Why is Context Length Important for Local LLMs?</a></li><li><a href="#how-does-context-length-affect-model-performance">How Does Context Length Affect Model Performance?</a></li><li><a href="#strategies-for-managing-context-length">Strategies for Managing Context Length</a></li><li><a href="#best-practices-for-implementing-llms-locally">Best Practices for Implementing LLMs Locally</a></li></ol></nav>
+<p>Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the context window, determines how much information a model can consider at once when generating responses. This parameter is essential for optimizing both the performance and the user experience of an LLM. In this article, we will explore what context length means, how it affects the performance of an LLM, and how to manage it effectively when working with these models locally.</p>
+<h2 id="what-is-context-length">What is Context Length?</h2>
+<p>Context length is essentially the maximum number of tokens (units of text) that a language model can process at a time. Tokens can be words, punctuation marks, or subwords, depending on how the model is trained. In the context of LLMs, the context length is a critical factor that influences the model&#39;s ability to understand and generate coherent text. A higher context length allows the model to consider a broader range of information when producing a response, which can lead to more nuanced and contextually appropriate outputs. However, increasing the context length also comes with trade-offs, such as increased computational requirements and longer processing times.</p>
+<h2 id="why-is-context-length-important-for-local-llms">Why is Context Length Important for Local LLMs?</h2>
+<p>When running an LLM locally, context length becomes a key consideration due to the limited computational resources available on a personal computer or server. Local LLMs require careful management of resources to ensure that the model can operate efficiently and deliver timely responses. The context length directly impacts the amount of memory and processing power needed to run the model. A larger context length means more data needs to be stored in memory and processed, which can quickly become a bottleneck on less powerful hardware. Therefore, understanding and optimizing the context length is essential for achieving a balance between performance and resource utilization.</p>
+<h2 id="how-does-context-length-affect-model-performance">How Does Context Length Affect Model Performance?</h2>
+<p>The performance of an LLM is closely tied to the context length. A longer context allows the model to better understand the context and nuances of the input, leading to more accurate and relevant responses. For example, if a user is asking a question that references a series of previous statements, a longer context length will enable the model to recall and utilize that information in generating its response. However, there is a point of diminishing returns. Once the context length becomes too large, the benefits of additional information are outweighed by the increased computational overhead and potential for decreased performance due to memory limitations. Therefore, it is important to find an optimal context length that balances the need for context with the constraints of the local environment.</p>
+<h2 id="strategies-for-managing-context-length">Strategies for Managing Context Length</h2>
+<p>Given the trade-offs involved, it is essential to manage the context length effectively when working with local LLMs. Here are some strategies to consider:</p>
+<ol>
+<li><p><strong>Experimentation</strong>: Start with a moderate context length and gradually increase it to see how the model performs. This approach allows you to identify the optimal balance between performance and resource utilization.</p>
+</li>
+<li><p><strong>Chunking</strong>: For very long input texts, consider breaking them into smaller chunks that fit within the context length. This method can help maintain performance without sacrificing the integrity of the input.</p>
+</li>
+<li><p><strong>Model Selection</strong>: Choose an LLM that is designed for local deployment and optimized for lower context lengths. Some models are specifically tailored to run efficiently on consumer-grade hardware.</p>
+</li>
+<li><p><strong>Hardware Upgrades</strong>: If possible, upgrading your hardware can provide more headroom for managing larger context lengths. However, this is not always feasible and should be considered alongside other strategies.</p>
+</li>
+</ol>
+<h2 id="best-practices-for-implementing-llms-locally">Best Practices for Implementing LLMs Locally</h2>
+<p>Implementing LLMs locally requires a thoughtful approach to ensure the best possible user experience. Here are some best practices to follow:</p>
+<ol>
+<li><p><strong>Monitor Resource Usage</strong>: Keep an eye on memory and CPU usage to ensure the LLM is running smoothly without overloading your system.</p>
+</li>
+<li><p><strong>User Feedback</strong>: Collect feedback from users to understand their needs and preferences regarding context length. This can help you fine-tune the model&#39;s performance.</p>
+</li>
+<li><p><strong>Documentation and Support</strong>: Provide clear documentation and support for users to help them understand how to interact effectively with the LLM, especially regarding context length limitations.</p>
+</li>
+<li><p><strong>Continuous Improvement</strong>: Regularly update and refine the LLM based on user feedback and technological advancements. This iterative process can help enhance the model&#39;s performance over time.</p>
+</li>
+</ol>
+
+
+<section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>How do I determine the optimal context length for my local LLM?</summary><p>The optimal context length depends on the specific use case and available resources. Start with a moderate context length and gradually increase it while monitoring performance and resource usage. This iterative approach can help you find the best balance.</p></details><details><summary>Can I adjust the context length during runtime?</summary><p>Adjusting the context length during runtime is generally not recommended as it can disrupt the model&#39;s operation. Instead, experiment with different context lengths during testing phases to determine the most effective settings.</p></details><details><summary>What happens if I exceed the maximum context length?</summary><p>If you exceed the maximum context length, the model may not be able to process the input correctly, leading to poor performance or errors. It is important to manage input lengths to fit within the specified context length.</p></details></section>
+<h2 id="conclusion">Conclusion</h2>
+<p>Context length is a fundamental aspect of working with local LLMs, impacting both performance and resource utilization. By understanding the implications of context length and employing effective strategies, you can optimize the performance of your local LLMs and deliver a more satisfying user experience. Regularly monitoring and refining your approach will help you make the most of the available resources and capabilities of the model.</p>
+
+
+<nav class="prevnext"><a href="https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html">&larr; A pre-call checklist for smoother client video meetings</a><a href="https://paxeko530.github.io/posts/chasing-late-invoice-payments.html">How to chase late invoice payments without losing the client &rarr;</a></nav>
+<section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="keeping your data private with a local llm data privacy local llm offline ai" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/local-llm-data-privacy.html"><img src="https://paxeko530.github.io/img/local-llm-data-privacy.png" width="1200" height="630" alt="Keeping your data private with a local LLM" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/local-llm-data-privacy.html">Keeping your data private with a local LLM</a></h3>
 <p class="meta">2026-09-09</p>
-</div></article><article class="card" data-title="storage for local ai: why model files need a fast nvme drive local ai storage nvme ssd model files" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/storage-for-local-ai-models.html"><img src="https://paxeko530.github.io/img/storage-for-local-ai-models.png" width="1200" height="630" alt="Storage for local AI: why model files need a fast NVMe drive" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/storage-for-local-ai-models.html">Storage for local AI: why model files need a fast NVMe drive</a></h3>
-<p class="meta">2026-09-08</p>
-</div></article><article class="card" data-title="how to choose a nas for home backups and file storage home nas network storage backup server" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html"><img src="https://paxeko530.github.io/img/choose-a-nas-for-home-backups.png" width="1200" height="630" alt="How to choose a NAS for home backups and file storage" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html">How to choose a NAS for home backups and file storage</a></h3>
-<p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="a beginner guide to docker for self-hosting docker self-hosting containers" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html"><img src="https://paxeko530.github.io/img/docker-for-self-hosting-beginners.png" width="1200" height="630" alt="A beginner guide to Docker for self-hosting" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html">A beginner guide to Docker for self-hosting</a></h3>
-<p class="meta">2026-09-07</p>
 </div></article><article class="card" data-title="using a local llm as a coding assistant in your editor local llm coding assistant offline ai" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html"><img src="https://paxeko530.github.io/img/local-llm-coding-assistant.png" width="1200" height="630" alt="Using a local LLM as a coding assistant in your editor" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/local-llm-coding-assistant.html">Using a local LLM as a coding assistant in your editor</a></h3>
 <p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="building a low-power home server with a mini pc home server mini pc low power" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html"><img src="https://paxeko530.github.io/img/low-power-home-server-mini-pc.png" width="1200" height="630" alt="Building a low-power home server with a mini PC" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html">Building a low-power home server with a mini PC</a></h3>
-<p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="raspberry pi versus a mini pc for self-hosting raspberry pi mini pc self-hosting hardware" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html"><img src="https://paxeko530.github.io/img/raspberry-pi-vs-mini-pc-self-hosting.png" width="1200" height="630" alt="Raspberry Pi versus a mini PC for self-hosting" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/raspberry-pi-vs-mini-pc-self-hosting.html">Raspberry Pi versus a mini PC for self-hosting</a></h3>
-<p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="adding fast ssd storage to a home server home server ssd nvme storage self-hosting" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html"><img src="https://paxeko530.github.io/img/ssd-storage-for-a-home-server.png" width="1200" height="630" alt="Adding fast SSD storage to a home server" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/ssd-storage-for-a-home-server.html">Adding fast SSD storage to a home server</a></h3>
-<p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="do you need a ups for your home server? ups battery backup home server power" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/ups-for-a-home-server.html"><img src="https://paxeko530.github.io/img/ups-for-a-home-server.png" width="1200" height="630" alt="Do you need a UPS for your home server?" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/ups-for-a-home-server.html">Do you need a UPS for your home server?</a></h3>
-<p class="meta">2026-09-07</p>
-</div></article><article class="card" data-title="how to choose the right local llm for each task choose an llm local models parameters and context" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html"><img src="https://paxeko530.github.io/img/choosing-the-right-local-llm-for-the-task.png" width="1200" height="630" alt="How to choose the right local LLM for each task" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html">How to choose the right local LLM for each task</a></h3>
-<p class="meta">2026-09-06</p>
-</div></article><article class="card" data-title="what hardware you need for local llm inference in 2026 llm hardware inference gpu model ram" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html"><img src="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" width="1200" height="630" alt="What hardware you need for local LLM inference in 2026" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html">What hardware you need for local LLM inference in 2026</a></h3>
-<p class="meta">2026-09-06</p>
-</div></article><article class="card" data-title="llm quantization explained without the jargon quantization gguf local models" data-cat="ia">
-<a class="cover" href="https://paxeko530.github.io/posts/llm-quantization-explained.html"><img src="https://paxeko530.github.io/img/llm-quantization-explained.png" width="1200" height="630" alt="LLM quantization explained without the jargon" loading="lazy"></a>
-<div class="body">
-<span class="tag ia">Self-Hosting &amp; Local AI</span>
-<h3><a href="https://paxeko530.github.io/posts/llm-quantization-explained.html">LLM quantization explained without the jargon</a></h3>
-<p class="meta">2026-09-06</p>
 </div></article><article class="card" data-title="running a local llm with ollama: a beginner&#39;s guide ollama local llm open source models" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html"><img src="https://paxeko530.github.io/img/run-a-local-llm-with-ollama-beginners-guide.png" width="1200" height="630" alt="Running a local LLM with Ollama: a beginner&#39;s guide" loading="lazy"></a>
 <div class="body">
 <span class="tag ia">Self-Hosting &amp; Local AI</span>
 <h3><a href="https://paxeko530.github.io/posts/run-a-local-llm-with-ollama-beginners-guide.html">Running a local LLM with Ollama: a beginner&#39;s guide</a></h3>
 <p class="meta">2026-09-06</p>
-</div></article></div>
+</div></article></div></section>
+</article>
 </main>
 <button id="top" type="button" aria-label="Back to top">&uarr;</button>
 <div id="consent" class="consent" hidden>This site sets no tracking or advertising cookies. It stores one small preference on your device (theme and this notice). Amazon may set its own cookies after you follow an affiliate link. <a href="https://paxeko530.github.io/privacy.html">Privacy</a>.<button type="button">OK</button></div>

@@ -4,7 +4,7 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 11 Sep 2026 18:47:02 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 20:04:51 GMT</lastBuildDate>
   <item>
     <title>Setting up automated backups for a mini PC home server</title>
     <link>https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html</link>
@@ -13,6 +13,33 @@
     <category>Self-Hosting &amp; Local AI</category>
     <description>Automated backups are a crucial aspect of maintaining the integrity and longevity of data on a home server. Whether you&#39;re managing a small collection of personal files or a more extensive library of media and documents, having a reliable backup solution in place can save you fro</description>
     <enclosure url="https://paxeko530.github.io/img/automated-backups-for-a-mini-pc-home-server.png" type="image/png"/>
+  </item>
+  <item>
+    <title>How to chase late invoice payments without losing the client</title>
+    <link>https://paxeko530.github.io/posts/chasing-late-invoice-payments.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/chasing-late-invoice-payments.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>Every freelancer knows the frustration of chasing late payments. While it’s crucial to maintain positive client relationships, it’s equally important to ensure you get paid on time. Late payments can disrupt your cash flow and affect your ability to pay bills and invest in your b</description>
+    <enclosure url="https://paxeko530.github.io/img/chasing-late-invoice-payments.png" type="image/png"/>
+  </item>
+  <item>
+    <title>What context length means when running a local LLM</title>
+    <link>https://paxeko530.github.io/posts/context-length-local-llm-explained.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/context-length-local-llm-explained.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Understanding the concept of context length is crucial when working with local large language models (LLMs). Context length, often referred to as the context window, determines how much information a model can consider at once when generating responses. This parameter is essentia</description>
+    <enclosure url="https://paxeko530.github.io/img/context-length-local-llm-explained.png" type="image/png"/>
+  </item>
+  <item>
+    <title>A pre-call checklist for smoother client video meetings</title>
+    <link>https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Home Office</category>
+    <description>In today’s fastpaced business environment, remote work and video meetings have become the norm. Whether you’re a seasoned professional or just starting out in the world of remote work, ensuring that your client video meetings run smoothly is crucial. A wellprepared meeting can ma</description>
+    <enclosure url="https://paxeko530.github.io/img/pre-call-checklist-client-video-meetings.png" type="image/png"/>
   </item>
   <item>
     <title>Practical ways to reduce fan noise from a home server</title>
@@ -247,32 +274,5 @@
     <category>Self-Hosting &amp; Local AI</category>
     <description>Running a local LLM with Ollama can be a gamechanger for developers and enthusiasts looking to explore the capabilities of large language models without the need for cloud services. By running these models locally, you gain full control over your data, improve privacy, and reduce</description>
     <enclosure url="https://paxeko530.github.io/img/run-a-local-llm-with-ollama-beginners-guide.png" type="image/png"/>
-  </item>
-  <item>
-    <title>Methods to make remote meetings shorter and more useful</title>
-    <link>https://paxeko530.github.io/posts/shorter-more-useful-remote-meetings.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/shorter-more-useful-remote-meetings.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Home Office</category>
-    <description>Remote meetings have become a cornerstone of modern work environments, especially with the rise of hybrid work models. However, they often come with their own set of challenges, such as long durations, lack of engagement, and difficulty in achieving clear outcomes. This article e</description>
-    <enclosure url="https://paxeko530.github.io/img/shorter-more-useful-remote-meetings.png" type="image/png"/>
-  </item>
-  <item>
-    <title>Simple freelance contracts: what you must include</title>
-    <link>https://paxeko530.github.io/posts/simple-freelance-contracts-what-to-include.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/simple-freelance-contracts-what-to-include.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Freelance Tools</category>
-    <description>As a freelancer, one of the most crucial documents you’ll ever draft or review is a freelance contract. This document serves as a legal agreement that defines the terms of your work with a client, helping to ensure that both parties are clear on expectations, deliverables, and pa</description>
-    <enclosure url="https://paxeko530.github.io/img/simple-freelance-contracts-what-to-include.png" type="image/png"/>
-  </item>
-  <item>
-    <title>How to speed up an old PC for work without replacing it</title>
-    <link>https://paxeko530.github.io/posts/speed-up-an-old-pc-for-work.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/speed-up-an-old-pc-for-work.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Freelance Tools</category>
-    <description>Speeding up an old PC can make a significant difference in its performance and usability, especially when it comes to handling work tasks efficiently. Whether you&#39;re dealing with slow boot times, sluggish application launches, or long loading times, there are several practical st</description>
-    <enclosure url="https://paxeko530.github.io/img/speed-up-an-old-pc-for-work.png" type="image/png"/>
   </item>
 </channel></rss>

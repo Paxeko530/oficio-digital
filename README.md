@@ -15,14 +15,17 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 ## Browse by topic
 
 <table><tr>
-<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-freelancer.html"><img src="img/separate-business-bank-account-sole-proprietor.png" width="100%" alt="Freelance Tools"></a><br><br><strong><a href="https://paxeko530.github.io/category-freelancer.html">Freelance Tools</a></strong><br><sub>Software, cash flow, contracts, invoicing</sub></td>
-<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-escritorio.html"><img src="img/cable-management-home-office.png" width="100%" alt="Home Office"></a><br><br><strong><a href="https://paxeko530.github.io/category-escritorio.html">Home Office</a></strong><br><sub>Ergonomics, lighting, remote-work productivity</sub></td>
+<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-freelancer.html"><img src="img/chasing-late-invoice-payments.png" width="100%" alt="Freelance Tools"></a><br><br><strong><a href="https://paxeko530.github.io/category-freelancer.html">Freelance Tools</a></strong><br><sub>Software, cash flow, contracts, invoicing</sub></td>
+<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-escritorio.html"><img src="img/pre-call-checklist-client-video-meetings.png" width="100%" alt="Home Office"></a><br><br><strong><a href="https://paxeko530.github.io/category-escritorio.html">Home Office</a></strong><br><sub>Ergonomics, lighting, remote-work productivity</sub></td>
 <td width="33%" valign="top"><a href="https://paxeko530.github.io/category-ia.html"><img src="img/automated-backups-for-a-mini-pc-home-server.png" width="100%" alt="Self-Hosting &amp; Local AI"></a><br><br><strong><a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></strong><br><sub>Home servers, NAS, mini PCs, open-source models</sub></td>
 </tr></table>
 
 ## Latest guides
 
 - **[Setting up automated backups for a mini PC home server](https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[How to chase late invoice payments without losing the client](https://paxeko530.github.io/posts/chasing-late-invoice-payments.html)** &nbsp;<sub>Freelance Tools</sub>
+- **[What context length means when running a local LLM](https://paxeko530.github.io/posts/context-length-local-llm-explained.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[A pre-call checklist for smoother client video meetings](https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html)** &nbsp;<sub>Home Office</sub>
 - **[Practical ways to reduce fan noise from a home server](https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Why a sole proprietor should keep a separate business bank account](https://paxeko530.github.io/posts/separate-business-bank-account-sole-proprietor.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[How retainer agreements work for freelancers](https://paxeko530.github.io/posts/freelance-retainer-agreements-explained.html)** &nbsp;<sub>Freelance Tools</sub>
@@ -31,9 +34,6 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 - **[Cable management for a tidy home office desk](https://paxeko530.github.io/posts/cable-management-home-office.html)** &nbsp;<sub>Home Office</sub>
 - **[Storage for local AI: why model files need a fast NVMe drive](https://paxeko530.github.io/posts/storage-for-local-ai-models.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Tracking billable hours accurately when you work solo](https://paxeko530.github.io/posts/tracking-billable-hours-solo.html)** &nbsp;<sub>Freelance Tools</sub>
-- **[How to choose a NAS for home backups and file storage](https://paxeko530.github.io/posts/choose-a-nas-for-home-backups.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
-- **[Choosing a monitor arm to reclaim desk space](https://paxeko530.github.io/posts/choosing-a-monitor-arm.html)** &nbsp;<sub>Home Office</sub>
-- **[A beginner guide to Docker for self-hosting](https://paxeko530.github.io/posts/docker-for-self-hosting-beginners.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 
 <p align="right"><a href="https://paxeko530.github.io/"><strong>See all &rarr;</strong></a></p>
 
