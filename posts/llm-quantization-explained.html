@@ -112,6 +112,9 @@ article.post p{margin:0 0 1.1em}
 .faq details p{margin:14px 0}
 .gear{margin:40px 0;padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--soft)}
 .gear h2{margin:0 0 16px;font-size:22px}.gear-list{display:flex;flex-direction:column;gap:12px}
+.mid-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:32px 0;padding:16px 20px;border:1px dashed var(--line);border-radius:var(--radius)}
+.mid-cta p{margin:0;font-size:15px}
+.mid-cta .btn{padding:10px 16px;font-size:14px;flex:none}
 .disclosure{font-size:12.5px;color:var(--muted);margin-top:16px}
 .prevnext{display:flex;justify-content:space-between;gap:16px;margin:40px 0 8px;font-size:14px}
 .prevnext a{max-width:48%}
@@ -167,6 +170,7 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <h2 id="challenges-and-limitations-of-quantization">Challenges and Limitations of Quantization</h2>
 <p>While quantization offers significant benefits, it also presents some challenges. The primary concern is accuracy loss. By reducing the precision of the model, quantization can lead to a decrease in performance, especially in tasks that require high precision. However, recent advancements in quantization techniques, such as post-training quantization and quantization-aware training, have helped to mitigate these issues.</p>
 <p>Another challenge is the complexity of deploying quantized models across different hardware platforms. While quantization can make models more efficient, ensuring that they run optimally on a variety of devices requires careful tuning and optimization. This is where tools like GGUF and ONNX Runtime come into play, providing the necessary flexibility to adapt models to different environments.</p>
+
 
 <section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>How much performance is lost with quantization?</summary><p>The extent of performance loss varies depending on the model and the type of quantization applied. Generally, full-integer quantization can result in more significant accuracy loss compared to mixed-precision quantization. However, with careful tuning and the use of advanced quantization techniques, the performance loss can be minimized, and in many cases, the benefits of reduced resource requirements outweigh the slight decrease in performance.</p></details><details><summary>Can any model be quantized?</summary><p>Most models can be quantized to some extent, but the effectiveness of quantization depends on the model architecture and the specific task. Models that are trained with high precision and require fine-grained accuracy may be more challenging to quantize effectively. However, with the right techniques and tools, many models can be successfully quantized to improve their efficiency without compromising too much on performance.</p></details><details><summary>What are the benefits of using GGUF over other formats?</summary><p>GGUF is particularly advantageous for storing and sharing quantized models due to its efficient storage format and support for various quantization types. It allows for easy deployment of models across different platforms and devices, making it a versatile choice for those looking to optimize their models for edge computing and local deployments.</p></details></section>
 <h2 id="conclusion">Conclusion</h2>

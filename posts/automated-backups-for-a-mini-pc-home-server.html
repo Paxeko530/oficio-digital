@@ -112,6 +112,9 @@ article.post p{margin:0 0 1.1em}
 .faq details p{margin:14px 0}
 .gear{margin:40px 0;padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--soft)}
 .gear h2{margin:0 0 16px;font-size:22px}.gear-list{display:flex;flex-direction:column;gap:12px}
+.mid-cta{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:32px 0;padding:16px 20px;border:1px dashed var(--line);border-radius:var(--radius)}
+.mid-cta p{margin:0;font-size:15px}
+.mid-cta .btn{padding:10px 16px;font-size:14px;flex:none}
 .disclosure{font-size:12.5px;color:var(--muted);margin-top:16px}
 .prevnext{display:flex;justify-content:space-between;gap:16px;margin:40px 0 8px;font-size:14px}
 .prevnext a{max-width:48%}
@@ -206,22 +209,15 @@ footer.site a{color:var(--muted)}footer.site nav{display:flex;gap:16px;flex-wrap
 <li><strong>Monitor system logs</strong>: Regularly review system logs to detect any unauthorized access or suspicious activities that could compromise your backup process.</li>
 </ol>
 
+<div class="mid-cta">
+  <p>Still deciding? <strong>Synology DS223 (2-bay diskless NAS)</strong> is the pick we recommend for this.</p>
+  <a class="btn" href="https://www.amazon.com/dp/B0BRNBVTJK/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
+</div>
 <section class="faq"><h2 id="faq">Frequently asked questions</h2><details><summary>Can I use cloud storage instead of a NAS for backups?</summary><p>Yes, you can use cloud storage services like Google Drive, Dropbox, or Amazon S3 as backup targets. However, cloud storage may not be as cost-effective or performant for large-scale backups compared to a local NAS. Consider your specific needs and budget before making a decision.</p></details><details><summary>How often should I perform backups?</summary><p>The frequency of backups depends on your tolerance for data loss. Daily backups are generally recommended for critical data, while less critical data might be backed up weekly or monthly. Regular backups help minimize the window of exposure to data loss.</p></details><details><summary>What should I do if my NAS fails?</summary><p>If your NAS fails, you should first attempt to restore it according to the manufacturer’s instructions. If restoration is not possible, you may need to recover data from your last backup. Keep an offline copy of your backups in a safe location, such as an external hard drive or a secondary NAS, to ensure data is recoverable even in the event of a complete NAS failure.</p></details></section>
 <h2 id="conclusion">Conclusion</h2>
 <p>Automated backups are a vital component of any home server setup, providing peace of mind and protecting your data from unforeseen events. By following the steps outlined in this article, you can set up a reliable backup system using a NAS device and a tool like rsync. Regular testing and maintenance will further ensure that your backups remain effective and secure, safeguarding your valuable data against potential loss.</p>
 
-<section class="gear">
-  <h2>Recommended gear</h2>
-  <div class="gear-list"><div class="prod">
-  
-  <p class="prod-name">Synology DS223 (2-bay diskless NAS)</p>
-  <ul class="prod-specs"><li>2 drive bays, diskless — drives sold separately</li><li>Realtek RTD1619B quad-core 1.7 GHz, 2 GB DDR4</li><li>1x Gigabit Ethernet, 3x USB 3.2 Gen 1</li><li>Runs Synology DSM; up to 36 TB raw capacity</li></ul>
-  <a class="btn" href="https://www.amazon.com/dp/B0BRNBVTJK/?tag=johnnyp02-20" rel="sponsored nofollow noopener" target="_blank">Check price on Amazon <span aria-hidden="true">&rarr;</span></a>
-</div></div>
-  <p class="disclosure">We pick gear that fits the job, not by commission &mdash;
-  <a href="https://paxeko530.github.io/how-we-choose.html">how we choose</a>. As an Amazon Associate,
-  SoloStack earns from qualifying purchases at no extra cost to you.</p>
-</section>
+
 <nav class="prevnext"><a href="https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html">&larr; Practical ways to reduce fan noise from a home server</a><span></span></nav>
 <section class="related"><h2>Keep reading</h2><div class="grid"><article class="card" data-title="building a low-power home server with a mini pc home server mini pc low power" data-cat="ia">
 <a class="cover" href="https://paxeko530.github.io/posts/low-power-home-server-mini-pc.html"><img src="https://paxeko530.github.io/img/low-power-home-server-mini-pc.png" width="1200" height="630" alt="Building a low-power home server with a mini PC" loading="lazy"></a>
