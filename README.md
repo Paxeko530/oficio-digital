@@ -24,16 +24,16 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 
 - **[Setting up automated backups for a mini PC home server](https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[How to chase late invoice payments without losing the client](https://paxeko530.github.io/posts/chasing-late-invoice-payments.html)** &nbsp;<sub>Freelance Tools</sub>
+- **[Choosing a Linux distribution for a home server](https://paxeko530.github.io/posts/choosing-a-linux-distro-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[What context length means when running a local LLM](https://paxeko530.github.io/posts/context-length-local-llm-explained.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[A pre-call checklist for smoother client video meetings](https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html)** &nbsp;<sub>Home Office</sub>
+- **[Reducing eye strain during long days at the screen](https://paxeko530.github.io/posts/reducing-eye-strain-screen-work.html)** &nbsp;<sub>Home Office</sub>
 - **[Practical ways to reduce fan noise from a home server](https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[Reverse proxy basics for self-hosting at home](https://paxeko530.github.io/posts/reverse-proxy-basics-self-hosting.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Why a sole proprietor should keep a separate business bank account](https://paxeko530.github.io/posts/separate-business-bank-account-sole-proprietor.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[How retainer agreements work for freelancers](https://paxeko530.github.io/posts/freelance-retainer-agreements-explained.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[Keeping your data private with a local LLM](https://paxeko530.github.io/posts/local-llm-data-privacy.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[A simple monthly bookkeeping routine for freelancers](https://paxeko530.github.io/posts/monthly-bookkeeping-routine-freelancers.html)** &nbsp;<sub>Freelance Tools</sub>
-- **[Cable management for a tidy home office desk](https://paxeko530.github.io/posts/cable-management-home-office.html)** &nbsp;<sub>Home Office</sub>
-- **[Storage for local AI: why model files need a fast NVMe drive](https://paxeko530.github.io/posts/storage-for-local-ai-models.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
-- **[Tracking billable hours accurately when you work solo](https://paxeko530.github.io/posts/tracking-billable-hours-solo.html)** &nbsp;<sub>Freelance Tools</sub>
 
 <p align="right"><a href="https://paxeko530.github.io/"><strong>See all &rarr;</strong></a></p>
 
