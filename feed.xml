@@ -4,7 +4,34 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 09 Sep 2026 21:31:46 GMT</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 18:44:49 GMT</lastBuildDate>
+  <item>
+    <title>Setting up automated backups for a mini PC home server</title>
+    <link>https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Automated backups are a crucial aspect of maintaining the integrity and longevity of data on a home server. Whether you&#39;re managing a small collection of personal files or a more extensive library of media and documents, having a reliable backup solution in place can save you fro</description>
+    <enclosure url="https://paxeko530.github.io/img/automated-backups-for-a-mini-pc-home-server.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Practical ways to reduce fan noise from a home server</title>
+    <link>https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Every tech enthusiast knows the frustration of a noisy home server or mini PC. Whether you&#39;re dealing with the hum of a highperformance CPU or the whir of multiple hard drives, fan noise can be a significant deterrent to enjoying your setup. Fortunately, there are several practic</description>
+    <enclosure url="https://paxeko530.github.io/img/reducing-fan-noise-home-server.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Why a sole proprietor should keep a separate business bank account</title>
+    <link>https://paxeko530.github.io/posts/separate-business-bank-account-sole-proprietor.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/separate-business-bank-account-sole-proprietor.html</guid>
+    <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>As a sole proprietor or freelancer, setting up a separate business bank account is a crucial step in managing your finances effectively. While it might seem like an unnecessary expense or hassle, maintaining a distinct business account offers several advantages that can protect y</description>
+    <enclosure url="https://paxeko530.github.io/img/separate-business-bank-account-sole-proprietor.png" type="image/png"/>
+  </item>
   <item>
     <title>How retainer agreements work for freelancers</title>
     <link>https://paxeko530.github.io/posts/freelance-retainer-agreements-explained.html</link>
@@ -247,23 +274,5 @@
     <category>Freelance Tools</category>
     <description>Speeding up an old PC can make a significant difference in its performance and usability, especially when it comes to handling work tasks efficiently. Whether you&#39;re dealing with slow boot times, sluggish application launches, or long loading times, there are several practical st</description>
     <enclosure url="https://paxeko530.github.io/img/speed-up-an-old-pc-for-work.png" type="image/png"/>
-  </item>
-  <item>
-    <title>The 3-2-1 backup rule applied to solo workers</title>
-    <link>https://paxeko530.github.io/posts/the-3-2-1-backup-rule-for-solo-workers.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/the-3-2-1-backup-rule-for-solo-workers.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Freelance Tools</category>
-    <description>Every solo worker knows the importance of protecting their hardearned data. Whether you&#39;re a freelance graphic designer, a remote writer, or a oneperson software development shop, losing your work can be devastating. That’s why implementing a robust backup strategy is crucial. On</description>
-    <enclosure url="https://paxeko530.github.io/img/the-3-2-1-backup-rule-for-solo-workers.png" type="image/png"/>
-  </item>
-  <item>
-    <title>Video call lighting: a practical guide</title>
-    <link>https://paxeko530.github.io/posts/video-call-lighting-guide.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/video-call-lighting-guide.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Home Office</category>
-    <description>In today&#39;s digital age, video calls have become a fundamental part of our personal and professional lives. Whether you&#39;re conducting a business meeting, attending a class, or connecting with friends and family, the quality of your video call can significantly impact your communic</description>
-    <enclosure url="https://paxeko530.github.io/img/video-call-lighting-guide.png" type="image/png"/>
   </item>
 </channel></rss>
