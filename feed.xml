@@ -4,7 +4,34 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Fri, 11 Sep 2026 20:19:46 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 05:26:00 GMT</lastBuildDate>
+  <item>
+    <title>Organizing a small home office on a budget</title>
+    <link>https://paxeko530.github.io/posts/organizing-a-small-home-office-on-a-budget.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/organizing-a-small-home-office-on-a-budget.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Home Office</category>
+    <description>Creating a functional and comfortable home office doesn&#39;t have to break the bank. Whether you&#39;re a freelancer, a remote worker, or someone who needs a dedicated space for work from home, setting up a small home office on a budget can be a rewarding and efficient process. This gui</description>
+    <enclosure url="https://paxeko530.github.io/img/organizing-a-small-home-office-on-a-budget.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Prompt basics for getting useful answers from a local LLM</title>
+    <link>https://paxeko530.github.io/posts/prompt-basics-for-getting-useful-local-llm-answers.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/prompt-basics-for-getting-useful-local-llm-answers.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Prompting is a critical aspect of interacting with a local Large Language Model (LLM) like Ollama. The effectiveness of the responses you receive largely depends on how well you craft your prompts. Whether you&#39;re looking to generate creative content, get answers to technical ques</description>
+    <enclosure url="https://paxeko530.github.io/img/prompt-basics-for-getting-useful-local-llm-answers.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Setting freelance payment terms that actually get honored</title>
+    <link>https://paxeko530.github.io/posts/setting-freelance-payment-terms-that-stick.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/setting-freelance-payment-terms-that-stick.html</guid>
+    <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>As a freelancer, setting clear payment terms is crucial to maintaining a healthy business relationship with your clients. However, defining these terms is only the first step. Ensuring that clients adhere to them is equally important. In this article, we will explore strategies f</description>
+    <enclosure url="https://paxeko530.github.io/img/setting-freelance-payment-terms-that-stick.png" type="image/png"/>
+  </item>
   <item>
     <title>Setting up automated backups for a mini PC home server</title>
     <link>https://paxeko530.github.io/posts/automated-backups-for-a-mini-pc-home-server.html</link>
@@ -247,32 +274,5 @@
     <category>Self-Hosting &amp; Local AI</category>
     <description>Choosing the right local language model (LLM) for your specific tasks can significantly enhance your productivity and the quality of your work. Local models offer several advantages, such as faster response times, better privacy, and the ability to work offline. However, with a m</description>
     <enclosure url="https://paxeko530.github.io/img/choosing-the-right-local-llm-for-the-task.png" type="image/png"/>
-  </item>
-  <item>
-    <title>Dual monitors for remote work: when it pays off and how to set it up</title>
-    <link>https://paxeko530.github.io/posts/dual-monitors-for-remote-work-worth-it.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/dual-monitors-for-remote-work-worth-it.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Home Office</category>
-    <description>Dual monitors have become an essential tool for many remote workers, offering a significant boost to productivity and comfort. Whether you’re a programmer, designer, or writer, the ability to spread your work across two screens can make a noticeable difference in how you manage t</description>
-    <enclosure url="https://paxeko530.github.io/img/dual-monitors-for-remote-work-worth-it.png" type="image/png"/>
-  </item>
-  <item>
-    <title>How to manage cash flow when you work for yourself</title>
-    <link>https://paxeko530.github.io/posts/freelancer-cash-flow-management.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/freelancer-cash-flow-management.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Freelance Tools</category>
-    <description>Managing cash flow is a critical aspect of running a successful freelance or selfemployed business. Unlike traditional employment where income is steady, freelancers often face irregular income streams, making it challenging to predict when money will come in and how much. Effect</description>
-    <enclosure url="https://paxeko530.github.io/img/freelancer-cash-flow-management.png" type="image/png"/>
-  </item>
-  <item>
-    <title>What hardware you need for local LLM inference in 2026</title>
-    <link>https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/hardware-for-local-llm-inference-2026.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Self-Hosting &amp; Local AI</category>
-    <description>Local Large Language Model (LLM) inference in 2026 will rely on a blend of powerful hardware components designed to handle the computational demands of running sophisticated AI models efficiently and responsively. As the complexity and size of these models continue to grow, so to</description>
-    <enclosure url="https://paxeko530.github.io/img/hardware-for-local-llm-inference-2026.png" type="image/png"/>
   </item>
 </channel></rss>
