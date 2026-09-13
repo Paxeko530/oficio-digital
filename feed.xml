@@ -4,7 +4,34 @@
   <link>https://paxeko530.github.io/</link>
   <description>Practical guides for people who work for themselves.</description>
   <language>en</language>
-  <lastBuildDate>Sat, 12 Sep 2026 05:31:26 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 05:24:23 GMT</lastBuildDate>
+  <item>
+    <title>Network-attached storage basics for beginners</title>
+    <link>https://paxeko530.github.io/posts/network-attached-storage-basics-for-beginners.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/network-attached-storage-basics-for-beginners.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Self-Hosting &amp; Local AI</category>
+    <description>Networkattached storage (NAS) is a technology that allows users to store and manage data on a centralized device connected to a network. This setup provides a convenient way to share files and media across multiple devices, making it an attractive option for both home and small b</description>
+    <enclosure url="https://paxeko530.github.io/img/network-attached-storage-basics-for-beginners.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Quarterly estimated taxes for freelancers: the basics</title>
+    <link>https://paxeko530.github.io/posts/quarterly-estimated-taxes-for-freelancers-basics.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/quarterly-estimated-taxes-for-freelancers-basics.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>Quarterly estimated taxes for freelancers can seem like a daunting task, but understanding the basics can help you manage your financial obligations more effectively. As a freelancer, you are responsible for paying your own taxes, including income tax, selfemployment tax, and any</description>
+    <enclosure url="https://paxeko530.github.io/img/quarterly-estimated-taxes-for-freelancers-basics.png" type="image/png"/>
+  </item>
+  <item>
+    <title>Time blocking for freelancers: a system that actually works</title>
+    <link>https://paxeko530.github.io/posts/time-blocking-for-freelancers-that-actually-works.html</link>
+    <guid isPermaLink="true">https://paxeko530.github.io/posts/time-blocking-for-freelancers-that-actually-works.html</guid>
+    <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+    <category>Freelance Tools</category>
+    <description>As a freelancer, managing your time effectively is crucial for maintaining productivity and meeting deadlines. One highly effective method for doing this is time blocking, a scheduling technique that involves assigning specific blocks of time to different tasks or activities. Unl</description>
+    <enclosure url="https://paxeko530.github.io/img/time-blocking-for-freelancers-that-actually-works.png" type="image/png"/>
+  </item>
   <item>
     <title>Organizing a small home office on a budget</title>
     <link>https://paxeko530.github.io/posts/organizing-a-small-home-office-on-a-budget.html</link>
@@ -247,32 +274,5 @@
     <category>Self-Hosting &amp; Local AI</category>
     <description>A home server can be a valuable addition to your home network, providing centralized storage, backup solutions, media streaming, and more. However, these servers are often left running 24/7, which means they need a reliable power supply. Uninterruptible Power Supplies (UPS) are d</description>
     <enclosure url="https://paxeko530.github.io/img/ups-for-a-home-server.png" type="image/png"/>
-  </item>
-  <item>
-    <title>Building an ergonomic desk setup at home on a budget</title>
-    <link>https://paxeko530.github.io/posts/affordable-ergonomic-desk-setup.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/affordable-ergonomic-desk-setup.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Home Office</category>
-    <description>An ergonomic desk setup is crucial for anyone working from home, as it can significantly impact your productivity and overall wellbeing. Whether you&#39;re a freelance writer, a software developer, or just need a dedicated workspace, creating an ergonomic environment can help reduce </description>
-    <enclosure url="https://paxeko530.github.io/img/affordable-ergonomic-desk-setup.png" type="image/png"/>
-  </item>
-  <item>
-    <title>The best invoicing apps for freelancers in 2026</title>
-    <link>https://paxeko530.github.io/posts/best-invoicing-apps-for-freelancers.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/best-invoicing-apps-for-freelancers.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Freelance Tools</category>
-    <description>Invoicing is a critical aspect of freelance work, as it ensures that you get paid promptly for the services you provide. However, managing invoices manually can be timeconsuming and errorprone. Fortunately, there are numerous invoicing apps available that streamline the process, </description>
-    <enclosure url="https://paxeko530.github.io/img/best-invoicing-apps-for-freelancers.png" type="image/png"/>
-  </item>
-  <item>
-    <title>How to choose the right local LLM for each task</title>
-    <link>https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html</link>
-    <guid isPermaLink="true">https://paxeko530.github.io/posts/choosing-the-right-local-llm-for-the-task.html</guid>
-    <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-    <category>Self-Hosting &amp; Local AI</category>
-    <description>Choosing the right local language model (LLM) for your specific tasks can significantly enhance your productivity and the quality of your work. Local models offer several advantages, such as faster response times, better privacy, and the ability to work offline. However, with a m</description>
-    <enclosure url="https://paxeko530.github.io/img/choosing-the-right-local-llm-for-the-task.png" type="image/png"/>
   </item>
 </channel></rss>

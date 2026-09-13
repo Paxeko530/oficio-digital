@@ -1,8 +1,8 @@
 {
   "affordable-ergonomic-desk-setup": {
-    "creator": "Artsy Crafty",
+    "creator": "Nazmul Hosen",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/finance-flatlay-LPD3QR7VQG"
+    "source": "https://wordpress.org/photos/photo/8826a22dd7/"
   },
   "best-invoicing-apps-for-freelancers": {
     "creator": "Monoar Rahman",
@@ -10,24 +10,24 @@
     "source": "https://stocksnap.io/photo/office-work-BL1SOOUWHX"
   },
   "dual-monitors-for-remote-work-worth-it": {
-    "creator": "Olu Eletu",
+    "creator": "Christina Morillo",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/professional-business-4VTDQ367MU"
+    "source": "https://stocksnap.io/photo/woman-developer-64EKVZ4V2B"
   },
   "freelancer-cash-flow-management": {
-    "creator": "Matt Bango",
+    "creator": "Words as Pictures",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/workspace-office-PJN9GAS0FE"
+    "source": "https://stocksnap.io/photo/cash-flow-XUITRGCOXL"
   },
   "hardware-for-local-llm-inference-2026": {
-    "creator": "Marc Chouinard",
+    "creator": "Startup Stock Photos",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/coding-business-DZ1EFM9PIK"
+    "source": "https://stocksnap.io/photo/coding-code-PFPNV9W5HK"
   },
   "juggling-multiple-clients-without-missing-deadlines": {
-    "creator": "Monoar Rahman",
+    "creator": null,
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-BL1SOOUWHX"
+    "source": "https://www.rawpixel.com/image/7374412/png-sticker-public-domain-illustrations"
   },
   "llm-quantization-explained": {
     "creator": "Anita Peeples",
@@ -40,29 +40,29 @@
     "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
   },
   "shorter-more-useful-remote-meetings": {
-    "creator": "Gabriel Beaudry",
+    "creator": "Matt Moloney",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-4ALWT6KXM0"
+    "source": "https://stocksnap.io/photo/laptop-work-ABBPKYTMY5"
   },
   "simple-freelance-contracts-what-to-include": {
-    "creator": "Negative Space",
-    "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-PRQZL8UFK2"
-  },
-  "speed-up-an-old-pc-for-work": {
     "creator": "Jens Kreuter",
     "license": "cc0 1.0",
     "source": "https://stocksnap.io/photo/office-work-0SQT0QS773"
   },
-  "the-3-2-1-backup-rule-for-solo-workers": {
-    "creator": "Ch%E2u%20Th%F4ng%20Phan",
+  "speed-up-an-old-pc-for-work": {
+    "creator": "Moses Cursor Ssebunya",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-I9INCIK831"
+    "source": "https://wordpress.org/photos/photo/17567dd65b/"
+  },
+  "the-3-2-1-backup-rule-for-solo-workers": {
+    "creator": "Lenharth Systems",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/computer-hard-IAJTFKGKFF"
   },
   "video-call-lighting-guide": {
-    "creator": "Artsy Crafty",
+    "creator": "adrianvelaleston",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/finance-flatlay-LPD3QR7VQG"
+    "source": "https://wordpress.org/photos/photo/9166a197bb/"
   },
   "choosing-the-right-local-llm-for-the-task": {
     "creator": "Markus Spiske",
@@ -85,19 +85,19 @@
     "source": "https://stocksnap.io/photo/laptop-macbook-YRUO4LCSLB"
   },
   "choose-a-nas-for-home-backups": {
-    "creator": "Christina Morillo",
+    "creator": "Reinier Vinkeles",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/developer-code-NT1Q3GZVFI"
+    "source": "https://www.rijksmuseum.nl/en/collection/RP-P-AO-15-128A"
   },
   "low-power-home-server-mini-pc": {
-    "creator": "Matthew Henry",
+    "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/laptop-code-0KAT80KW5F"
+    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
   },
   "ups-for-a-home-server": {
     "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
+    "source": "https://stocksnap.io/photo/macbook-laptop-7ULJ7GRFDB"
   },
   "docker-for-self-hosting-beginners": {
     "creator": "Christina Morillo",
@@ -107,7 +107,7 @@
   "raspberry-pi-vs-mini-pc-self-hosting": {
     "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
+    "source": "https://stocksnap.io/photo/macbook-laptop-7ULJ7GRFDB"
   },
   "ssd-storage-for-a-home-server": {
     "creator": "Negative Space",
@@ -115,9 +115,9 @@
     "source": "https://stocksnap.io/photo/macbook-computer-6UHHE19YG7"
   },
   "cable-management-home-office": {
-    "creator": "Gabriel Beaudry",
+    "creator": "Design by Matt",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-4ALWT6KXM0"
+    "source": "https://stocksnap.io/photo/home-office-QUU0AQABSN"
   },
   "storage-for-local-ai-models": {
     "creator": "Anita Peeples",
@@ -125,9 +125,9 @@
     "source": "https://stocksnap.io/photo/code-coding-IX9Z71L6PD"
   },
   "tracking-billable-hours-solo": {
-    "creator": "null",
+    "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-PE894KZLRX"
+    "source": "https://stocksnap.io/photo/office-work-8P6GFHP0LU"
   },
   "freelance-retainer-agreements-explained": {
     "creator": "Nao Triponez",
@@ -135,29 +135,29 @@
     "source": "https://stocksnap.io/photo/office-work-6IYCTEOYV8"
   },
   "local-llm-data-privacy": {
-    "creator": "Burst",
+    "creator": "Kinetic2352",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/laptop-working-DOLNAISHLZ"
+    "source": "https://commons.wikimedia.org/w/index.php?curid=179547898"
   },
   "monthly-bookkeeping-routine-freelancers": {
-    "creator": "Matt Bango",
+    "creator": "U.S. Department of Agriculture",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/workspace-office-PJN9GAS0FE"
+    "source": "https://www.rawpixel.com/image/3259395/free-photo-image-credit-card-machine-shopping"
   },
   "automated-backups-for-a-mini-pc-home-server": {
-    "creator": "Matthew Henry",
-    "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/laptop-code-0KAT80KW5F"
-  },
-  "reducing-fan-noise-home-server": {
-    "creator": "Christina Morillo",
-    "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/developer-code-NT1Q3GZVFI"
-  },
-  "separate-business-bank-account-sole-proprietor": {
     "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/office-work-PRQZL8UFK2"
+    "source": "https://stocksnap.io/photo/macbook-computer-6UHHE19YG7"
+  },
+  "reducing-fan-noise-home-server": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/macbook-laptop-2UXCQG5Q7W"
+  },
+  "separate-business-bank-account-sole-proprietor": {
+    "creator": "50Fish",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/stocks-graph-MEDIALY3UV"
   },
   "chasing-late-invoice-payments": {
     "creator": "Negative Space",
@@ -170,19 +170,19 @@
     "source": "https://stocksnap.io/photo/code-coding-IX9Z71L6PD"
   },
   "pre-call-checklist-client-video-meetings": {
-    "creator": "Design by Matt",
+    "creator": "Direct Media",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/keyboard-typing-UATQGKPFOH"
+    "source": "https://stocksnap.io/photo/video-meeting-9EFFLCVS23"
   },
   "choosing-a-linux-distro-home-server": {
-    "creator": "Matthew Henry",
+    "creator": "Anita Peeples",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/laptop-code-Q2V5YXHWBP"
+    "source": "https://stocksnap.io/photo/code-coding-IX9Z71L6PD"
   },
   "reducing-eye-strain-screen-work": {
-    "creator": "Design by Matt",
+    "creator": "Matt Moloney",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/keyboard-typing-UATQGKPFOH"
+    "source": "https://stocksnap.io/photo/laptop-work-ABBPKYTMY5"
   },
   "reverse-proxy-basics-self-hosting": {
     "creator": "Startup Stock Photos",
@@ -190,13 +190,253 @@
     "source": "https://stocksnap.io/photo/coding-code-PFPNV9W5HK"
   },
   "prompt-basics-for-getting-useful-local-llm-answers": {
-    "creator": "Sabri Tuzcu",
+    "creator": "Negative Space",
     "license": "cc0 1.0",
-    "source": "https://stocksnap.io/photo/computer-keyboard-BTG0UZK1NX"
+    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
   },
   "setting-freelance-payment-terms-that-stick": {
     "creator": "Matt Bango",
     "license": "cc0 1.0",
     "source": "https://stocksnap.io/photo/workspace-office-PJN9GAS0FE"
+  },
+  "organizing-a-small-home-office-on-a-budget": {
+    "creator": "Matt Moloney",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/laptop-working-HB4IJY3TPI"
+  },
+  "organizing-a-small-home-office-on-a-budget-pin-b": {
+    "creator": "Matt Bango",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/home-office-TTSZNHYKJD"
+  },
+  "prompt-basics-for-getting-useful-local-llm-answers-pin-b": {
+    "creator": "Markus Spiske",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-BKWZJHXR57"
+  },
+  "setting-freelance-payment-terms-that-stick-pin-b": {
+    "creator": "Lukas",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/home-desk-OCBS9JTNWW"
+  },
+  "automated-backups-for-a-mini-pc-home-server-pin-b": {
+    "creator": "Marc Chouinard",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/coding-macbook-LV2IUQNTZ5"
+  },
+  "chasing-late-invoice-payments-pin-b": {
+    "creator": "null",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-PE894KZLRX"
+  },
+  "choosing-a-linux-distro-home-server-pin-b": {
+    "creator": "Christina Morillo",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/conferenceroom-meeting-GVUWVKUHZE"
+  },
+  "context-length-local-llm-explained-pin-b": {
+    "creator": "Christina Morillo",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/conferenceroom-meeting-GVUWVKUHZE"
+  },
+  "pre-call-checklist-client-video-meetings-pin-b": {
+    "creator": "Direct Media",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/video-meeting-YNKHEDUMB5"
+  },
+  "reducing-eye-strain-screen-work-pin-b": {
+    "creator": "Design by Matt",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/home-office-XCEL7PRKMG"
+  },
+  "reducing-fan-noise-home-server-pin-b": {
+    "creator": "Startup Stock Photos",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/coding-code-PFPNV9W5HK"
+  },
+  "reverse-proxy-basics-self-hosting-pin-b": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
+  },
+  "separate-business-bank-account-sole-proprietor-pin-b": {
+    "creator": "Artsy Crafty",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/piggy-bank-ZLEVSWFWZC"
+  },
+  "freelance-retainer-agreements-explained-pin-b": {
+    "creator": "Wesson Wang",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-XYCH43DMBB"
+  },
+  "local-llm-data-privacy-pin-b": {
+    "creator": "Giulia Forsythe",
+    "license": "cc0 1.0",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=97647850"
+  },
+  "monthly-bookkeeping-routine-freelancers-pin-b": {
+    "creator": "Gary Todd from Xinzheng, China",
+    "license": "cc0 1.0",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=109100635"
+  },
+  "cable-management-home-office-pin-b": {
+    "creator": "Daria Nepriakhina",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/home-office-B8749C54D9"
+  },
+  "storage-for-local-ai-models-pin-b": {
+    "creator": "Christina Morillo",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/conferenceroom-meeting-GVUWVKUHZE"
+  },
+  "tracking-billable-hours-solo-pin-b": {
+    "creator": "Ch%E2u%20Th%F4ng%20Phan",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-I9INCIK831"
+  },
+  "choose-a-nas-for-home-backups-pin-b": {
+    "creator": "Reinier Vinkeles",
+    "license": "cc0 1.0",
+    "source": "https://www.rijksmuseum.nl/en/collection/RP-P-OB-86.921"
+  },
+  "choosing-a-monitor-arm-pin-b": {
+    "creator": "Artsy Crafty",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/notebook-desk-GRGCZJ7CNE"
+  },
+  "docker-for-self-hosting-beginners-pin-b": {
+    "creator": "Anita Peeples",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-IX9Z71L6PD"
+  },
+  "how-to-set-freelance-rates-pin-b": {
+    "creator": "Vilmos Vagyoczki",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-A4XAPP3ZTK"
+  },
+  "local-llm-coding-assistant-pin-b": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/macbook-laptop-2UXCQG5Q7W"
+  },
+  "low-power-home-server-mini-pc-pin-b": {
+    "creator": "Markus Spiske",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-BKWZJHXR57"
+  },
+  "raspberry-pi-vs-mini-pc-self-hosting-pin-b": {
+    "creator": "Marc Chouinard",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/laptop-macbook-YRUO4LCSLB"
+  },
+  "ssd-storage-for-a-home-server-pin-b": {
+    "creator": "Marc Chouinard",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/coding-macbook-LV2IUQNTZ5"
+  },
+  "ups-for-a-home-server-pin-b": {
+    "creator": "Marc Chouinard",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/laptop-macbook-YRUO4LCSLB"
+  },
+  "affordable-ergonomic-desk-setup-pin-b": {
+    "creator": "david wolfpaw",
+    "license": "cc0 1.0",
+    "source": "https://wordpress.org/photos/photo/189666a0ac/"
+  },
+  "best-invoicing-apps-for-freelancers-pin-b": {
+    "creator": "Matt Bango",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/workspace-office-PJN9GAS0FE"
+  },
+  "choosing-the-right-local-llm-for-the-task-pin-b": {
+    "creator": "%C9mile%20Perron",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/laptop-computer-W0RUS6FWBJ"
+  },
+  "dual-monitors-for-remote-work-worth-it-pin-b": {
+    "creator": "Lee Campbell",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-N0ZRKV9CI6"
+  },
+  "freelancer-cash-flow-management-pin-b": {
+    "creator": "Words as Pictures",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/cash-flow-XUITRGCOXL"
+  },
+  "hardware-for-local-llm-inference-2026-pin-b": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-MRF1628S9A"
+  },
+  "juggling-multiple-clients-without-missing-deadlines-pin-b": {
+    "creator": "Vintage RS",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/antique-watch-WXV93HBI6K"
+  },
+  "llm-quantization-explained-pin-b": {
+    "creator": "Jeffrey Betts",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/computer-keyboard-GDIB3UOGXB"
+  },
+  "run-a-local-llm-with-ollama-beginners-guide-pin-b": {
+    "creator": "Markus Spiske",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/code-coding-BKWZJHXR57"
+  },
+  "shorter-more-useful-remote-meetings-pin-b": {
+    "creator": "Matt Moloney",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/laptop-work-Z0GFSWC2Y0"
+  },
+  "simple-freelance-contracts-what-to-include-pin-b": {
+    "creator": "Ch%E2u%20Th%F4ng%20Phan",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-BCLRC8HNEO"
+  },
+  "speed-up-an-old-pc-for-work-pin-b": {
+    "creator": "Jonas Svidras",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/intel-8008-LBYK1XTHFC"
+  },
+  "the-3-2-1-backup-rule-for-solo-workers-pin-b": {
+    "creator": "Lenharth Systems",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/floppy-disks-YTVGVEESMY"
+  },
+  "video-call-lighting-guide-pin-b": {
+    "creator": "W.carter",
+    "license": "cc0 1.0",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=59736210"
+  },
+  "network-attached-storage-basics-for-beginners": {
+    "creator": "Marc Chouinard",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/coding-business-DZ1EFM9PIK"
+  },
+  "network-attached-storage-basics-for-beginners-pin-b": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/macbook-computer-6UHHE19YG7"
+  },
+  "quarterly-estimated-taxes-for-freelancers-basics": {
+    "creator": "Nao Triponez",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-6IYCTEOYV8"
+  },
+  "quarterly-estimated-taxes-for-freelancers-basics-pin-b": {
+    "creator": "Wesson Wang",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-XYCH43DMBB"
+  },
+  "time-blocking-for-freelancers-that-actually-works": {
+    "creator": "Monoar Rahman",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-DB8D7GBTJH"
+  },
+  "time-blocking-for-freelancers-that-actually-works-pin-b": {
+    "creator": "Negative Space",
+    "license": "cc0 1.0",
+    "source": "https://stocksnap.io/photo/office-work-PRQZL8UFK2"
   }
 }

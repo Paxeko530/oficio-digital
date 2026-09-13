@@ -7,7 +7,7 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 <p align="center">
 <a href="https://paxeko530.github.io/"><img alt="Visit the site" src="https://img.shields.io/badge/Visit_the_site-0b62ff?style=for-the-badge&logo=githubpages&logoColor=white"></a>
 &nbsp;
-<a href="https://paxeko530.github.io/posts/organizing-a-small-home-office-on-a-budget.html"><img alt="Read a guide" src="https://img.shields.io/badge/Read_a_guide-16181d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
+<a href="https://paxeko530.github.io/posts/network-attached-storage-basics-for-beginners.html"><img alt="Read a guide" src="https://img.shields.io/badge/Read_a_guide-16181d?style=for-the-badge&logo=readthedocs&logoColor=white"></a>
 </p>
 
 ---
@@ -15,13 +15,16 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 ## Browse by topic
 
 <table><tr>
-<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-freelancer.html"><img src="img/setting-freelance-payment-terms-that-stick.png" width="100%" alt="Freelance Tools"></a><br><br><strong><a href="https://paxeko530.github.io/category-freelancer.html">Freelance Tools</a></strong><br><sub>Software, cash flow, contracts, invoicing</sub></td>
+<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-freelancer.html"><img src="img/quarterly-estimated-taxes-for-freelancers-basics.png" width="100%" alt="Freelance Tools"></a><br><br><strong><a href="https://paxeko530.github.io/category-freelancer.html">Freelance Tools</a></strong><br><sub>Software, cash flow, contracts, invoicing</sub></td>
 <td width="33%" valign="top"><a href="https://paxeko530.github.io/category-escritorio.html"><img src="img/organizing-a-small-home-office-on-a-budget.png" width="100%" alt="Home Office"></a><br><br><strong><a href="https://paxeko530.github.io/category-escritorio.html">Home Office</a></strong><br><sub>Ergonomics, lighting, remote-work productivity</sub></td>
-<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-ia.html"><img src="img/prompt-basics-for-getting-useful-local-llm-answers.png" width="100%" alt="Self-Hosting &amp; Local AI"></a><br><br><strong><a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></strong><br><sub>Home servers, NAS, mini PCs, open-source models</sub></td>
+<td width="33%" valign="top"><a href="https://paxeko530.github.io/category-ia.html"><img src="img/network-attached-storage-basics-for-beginners.png" width="100%" alt="Self-Hosting &amp; Local AI"></a><br><br><strong><a href="https://paxeko530.github.io/category-ia.html">Self-Hosting &amp; Local AI</a></strong><br><sub>Home servers, NAS, mini PCs, open-source models</sub></td>
 </tr></table>
 
 ## Latest guides
 
+- **[Network-attached storage basics for beginners](https://paxeko530.github.io/posts/network-attached-storage-basics-for-beginners.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
+- **[Quarterly estimated taxes for freelancers: the basics](https://paxeko530.github.io/posts/quarterly-estimated-taxes-for-freelancers-basics.html)** &nbsp;<sub>Freelance Tools</sub>
+- **[Time blocking for freelancers: a system that actually works](https://paxeko530.github.io/posts/time-blocking-for-freelancers-that-actually-works.html)** &nbsp;<sub>Freelance Tools</sub>
 - **[Organizing a small home office on a budget](https://paxeko530.github.io/posts/organizing-a-small-home-office-on-a-budget.html)** &nbsp;<sub>Home Office</sub>
 - **[Prompt basics for getting useful answers from a local LLM](https://paxeko530.github.io/posts/prompt-basics-for-getting-useful-local-llm-answers.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[Setting freelance payment terms that actually get honored](https://paxeko530.github.io/posts/setting-freelance-payment-terms-that-stick.html)** &nbsp;<sub>Freelance Tools</sub>
@@ -31,9 +34,6 @@ Straight-talking guides on the tools, gear, and setups that make independent wor
 - **[What context length means when running a local LLM](https://paxeko530.github.io/posts/context-length-local-llm-explained.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
 - **[A pre-call checklist for smoother client video meetings](https://paxeko530.github.io/posts/pre-call-checklist-client-video-meetings.html)** &nbsp;<sub>Home Office</sub>
 - **[Reducing eye strain during long days at the screen](https://paxeko530.github.io/posts/reducing-eye-strain-screen-work.html)** &nbsp;<sub>Home Office</sub>
-- **[Practical ways to reduce fan noise from a home server](https://paxeko530.github.io/posts/reducing-fan-noise-home-server.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
-- **[Reverse proxy basics for self-hosting at home](https://paxeko530.github.io/posts/reverse-proxy-basics-self-hosting.html)** &nbsp;<sub>Self-Hosting & Local AI</sub>
-- **[Why a sole proprietor should keep a separate business bank account](https://paxeko530.github.io/posts/separate-business-bank-account-sole-proprietor.html)** &nbsp;<sub>Freelance Tools</sub>
 
 <p align="right"><a href="https://paxeko530.github.io/"><strong>See all &rarr;</strong></a></p>
 
